@@ -1,4 +1,0 @@
-midea
-=====
-
-Midea México website

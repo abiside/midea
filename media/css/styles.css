@@ -26,9 +26,9 @@ z-index:10;
 #header #menu-sup #menu-content #logo{width:210px;height:75px;position:absolute;background:url(../img/lib/logo.png) no-repeat center;margin:0;}
 
 #header #menu-sup #menu-content #opciones{position:absolute;right:0;height:40px;overflow-x:auto;margin-top:45px;}
-#header #menu-sup #menu-content #opciones .opcion{float:left; margin:0px 15px 0px 15px;display:block;color:#747474;font-size:14px; padding-bottom: 3px;}
+#header #menu-sup #menu-content #opciones .opcion{float:left; margin:0px 15px 0px 15px;display:block;color:#747474;font-size:14px; padding-bottom: 3px; text-shadow: 0px 1px rgba(255,255,255,.4);}
 
-#header #menu-sup #menu-content #opciones .opcion:hover{border-bottom: 2px solid #00aeef; color: white;}
+#header #menu-sup #menu-content #opciones .opcion:hover{border-bottom: 2px solid #00aeef; color: white; text-shadow: 0px 0px rgba(255,255,255,.4);}
 
 #footer{height:640px;background:url(../img/lib/bg-footer.png) repeat-x;}
 

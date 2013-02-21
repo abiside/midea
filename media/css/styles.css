@@ -26,8 +26,9 @@ z-index:10;
 #header #menu-sup #menu-content #logo{width:210px;height:75px;position:absolute;background:url(../img/lib/logo.png) no-repeat center;margin:0;}
 
 #header #menu-sup #menu-content #opciones{position:absolute;right:0;height:40px;overflow-x:auto;margin-top:45px;}
-#header #menu-sup #menu-content #opciones .opcion{float:left;padding:0 15px 0 15px;display:block;color:#747474;font-size:12px;}
-/*#header #menu-sup #menu-content #opciones .opcion:hover{background:#092268;}*/
+#header #menu-sup #menu-content #opciones .opcion{float:left; margin:0px 15px 0px 15px;display:block;color:#747474;font-size:14px; padding-bottom: 3px;}
+
+#header #menu-sup #menu-content #opciones .opcion:hover{border-bottom: 2px solid #00aeef; color: white;}
 
 #footer{height:640px;background:url(../img/lib/bg-footer.png) repeat-x;}
 
@@ -45,12 +46,20 @@ z-index:10;
 
 
 #soporte-frame{background: url(../img/lib/bg-frame-soporte.jpg) center no-repeat;height:465px;}
+#soporte-frame .shadow {background: url(../img/lib/soporteframe.png) repeat-x; position: absolute; height: 465px; width: 100%;}
 
 #lider-frame{background: url(../img/lib/bg-lider-frame.png) center repeat-x;height:705px;}
 #lider-frame #icon-lider{position:absolute;background: url(../img/lib/icon-lider.png) center no-repeat;height:200px;width:100%;margin:115px 0 50px 0;}
 #lider-frame #img-lider{position:absolute;background: url(../img/lib/lider-img.png) center no-repeat;height:245px;width:100%;bottom:0;}
 
+.twocolumns {width: 40%; position: relative; float:left; color: white; padding: 60px 45px;}
+.twocolumns div {text-shadow: 0px 0px 6px rgba(0,0,0, 0.5); margin-bottom: 40px; text-align: left; font-size: 16px;}
+.twocolumns .bigtext {font-size: 50px; font-weight: bold;}
 
+.twocolumns form {text-align: left;}
+.twocolumns input {width:280px; height: 35px; padding: 0px 10px; color:#b6b6b6; font-size: 12px; border-radius: 3px; border: none; margin-bottom: 20px;}
+.twocolumns textarea {min-width:280px; max-width: 280px; min-height: 60px; max-height: 60px; padding: 10px 10px; color:#b6b6b6; font-size: 12px; border-radius: 3px; border: none; margin-bottom: 20px;}
+.twocolumns #enviarbtn { width: 300px; border: 1px solid #04527f; background:url(../img/lib/btnbg.png) repeat-x; color: white; text-shadow: 0px 0px 6px rgba(0,0,0, 0.5); }
 
 /* --- CUERPO/CONTENIDO DE LA SECCION --- */
 #content{text-align:center;margin-top:80px;position:absolute;width:100%;}

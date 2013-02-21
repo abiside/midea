@@ -27,6 +27,25 @@
 
 
 <div id="soporte-frame">
+	<div class="shadow"></div>
+
+	<div class="limited">
+		<div class="twocolumns">
+			<div class="bigtext">Servicio Técnico</div>
+			<div>Contacta a nuestro servicio técnico para cualquier duda o servicio que requiera tu equipo.</div>
+			<div class="bigtext">Lada Nacional</div>
+			<div class="bigtext">01 800 000 0808</div>
+		</div>
+		<div class="twocolumns">
+			<div>Envíanos un mensaje.</div>
+			 <form>
+			 	<input type="text" name="nombre" value="Nombre" onblur="if (this.value=='') this.value='Nombre';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+			 	<input type="text" name="email" value="Email" onblur="if (this.value=='') this.value='Email';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+			 	<textarea name="mensaje">Mensaje</textarea>
+			 	<input value="Enviar" id="enviarbtn" type="submit">
+			 </form>
+		</div>
+	</div>
 
 </div>
 

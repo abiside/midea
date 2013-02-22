@@ -5,6 +5,7 @@
 <title><?=$page_title?> - Midea México - Aires acondicionados</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />   
 <link rel="stylesheet" href="<?=base_url()?>media/css/styles.css" />
+<link rel="stylesheet" href="<?=base_url()?>media/css/distribuidores.css" />
 
 <script src="<?=base_url()?>media/js/jquery.min.js"></script>
 <script src="<?=base_url()?>media/js/functions.js"></script>

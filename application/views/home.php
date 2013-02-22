@@ -39,9 +39,9 @@
 		<div class="twocolumns">
 			<div>Envíanos un mensaje.</div>
 			 <form>
-			 	<input type="text" name="nombre" value="Nombre" onblur="if (this.value=='') this.value='Nombre';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
-			 	<input type="text" name="email" value="Email" onblur="if (this.value=='') this.value='Email';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
-			 	<textarea name="mensaje">Mensaje</textarea>
+			 	<input class="innershadow" type="text" name="nombre" value="Nombre" onblur="if (this.value=='') this.value='Nombre';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+			 	<input class="innershadow" type="text" name="email" value="Email" onblur="if (this.value=='') this.value='Email';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+			 	<textarea name="mensaje" class="innershadow">Mensaje</textarea>
 			 	<input value="Enviar" id="enviarbtn" type="submit">
 			 </form>
 		</div>

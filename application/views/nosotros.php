@@ -1,47 +1,20 @@
-<div id="autosSlider">
-	<div id="sliderContent" class="r10">
+<div id="imagearea"></div>
 
-		<?php foreach($autos as $a): ?>
-		<div
-			id="btn-<?=$a->modelo?>" 
-			class="btn-auto r8" 
-			style="background:url(<?base_url()?>functions/imagen?c=autos&i=<?=$a->modelo?>&w=180&h=80) center no-repeat;">
+<div id="nosotroscontenido">
+	<h1>Nosotros</h1>
+	<div id="descripcion">
+		Midea es una empresa fundada en Shunde, Guangdong, capital de los electrodomésticos en China.<br><br>
+		Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, nuevas tecnologías y la innovación continua.<br><br>
+		Midea se ha desarrollado desde una empresa pequeña a ser una empresa de clase mundial en línea blanca, ofreciendo productos de alta calidad a precios muy competitivos. Sus productos principales incluyen minisplits, aire acondicionado comercial, lavadoras, refrigeradores, dispensadores de agua, hornos de microondas, lavavajillas, ventiladores eléctricos, calentadores eléctricos, calentadores de agua, hornos eléctricos, aspiradoras, enseres domésticos, así como otros productos de apoyo, tales como compresores, motores eléctricos, magnetrones y transformadores.<br><br>
+		En 2008 llega a México para comercializar sus productos de la línea de aire acondicionado.
+	</div>
+	<div id="ceoarea">
+		<div id="ceoquote">
+		“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
+			<div id="ceoname"> 
+				- <span> JACKIE CHAN </span>  CEO MIDEA
+			</div>
 		</div>
-		<?php endforeach ?>
+		<div id="ceoimg"></div>
 	</div>
 </div>
-
-<div id="autosInfo">
-	<?php foreach($autos as $a): ?>
-		<div class="auto" id="<?=$a->modelo?>">
-			<div class="gallery"></div>
-			<div class="image" style="background-image:url(<?base_url()?>functions/imagen?c=autos&i=<?=$a->modelo?>&w=540&h=330)">
-				<div class="label"><?=$a->marca?><span class="bold"><?=$a->nombre?></span></div>
-			</div>
-			<div class="general">
-				<div class="capacidades">
-					<div class="pasajeros r10">
-						<div class="icono r8"></div>
-						<div class="cantidad"><?=$a->pasajeros?></div>
-					</div>
-					<div class="equipaje r10">
-						<div class="icono r8"></div>
-						<div class="cantidad"><?=$a->equipaje?></div>
-					</div>
-				</div>
-				<div class="btn-rentar r10">¡Réntalo!</div>
-				<div class="info-general">
-
-				</div>
-			</div>
-		</div>
-	<?php endforeach ?>
-</div>
-
-<script>
-	$(".btn-auto").click(function(){
-		var aux = $(this).prop("id").split("-");
-		$(".auto").hide();
-		$("#" + aux[1]).show();
-	})
-</script>

@@ -27,7 +27,6 @@
 
 						<a href="<?=base_url()?>" class="opcion">Inicio</a>
 						<a href="<?=base_url()?>productos" class="opcion">Productos</a>
-						<a href="<?=base_url()?>soporte" class="opcion">Soporte Técnico</a>
 						<a href="<?=base_url()?>nosotros" class="opcion">Nosotros</a>
 						<a href="<?=base_url()?>distribuidor" class="opcion">Distribuidor</a>
 						<a href="<?=base_url()?>#footer" class="opcion">Contacto</a>

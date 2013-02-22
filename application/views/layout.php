@@ -22,14 +22,15 @@
 			<div id="barra-lang"></div>
 			<div id="menu-sup">
 				<div id="menu-content">
-					<div id="logo"></div>
+					<a href="<?=base_url()?>"><div id="logo"></div></a>
 					<div id="opciones">
 
-						<a href="<?=base_url()?>cars" class="opcion">Autos</a>
-						<a href="<?=base_url()?>pages/faq" class="opcion">Preguntas frecuentes</a>
-						<a href="<?=base_url()?>promos" class="opcion">Promociones</a>
-						<a href="<?=base_url()?>pages/about" class="opcion">Empresa</a>
-						<a href="<?=base_url()?>pages/contact" class="opcion">Contáctanos</a>
+						<a href="<?=base_url()?>" class="opcion">Inicio</a>
+						<a href="<?=base_url()?>productos" class="opcion">Productos</a>
+						<a href="<?=base_url()?>soporte" class="opcion">Soporte Técnico</a>
+						<a href="<?=base_url()?>nosotros" class="opcion">Nosotros</a>
+						<a href="<?=base_url()?>distribuidor" class="opcion">Distribuidor</a>
+						<a href="<?=base_url()?>#footer" class="opcion">Contacto</a>
 
 					</div>
 				</div>

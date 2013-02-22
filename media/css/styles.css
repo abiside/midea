@@ -47,6 +47,7 @@ z-index:10;
 #lider-frame{background: url(../img/lib/bg-lider-frame.png) center repeat-x;height:705px;}
 #lider-frame #icon-lider{position:absolute;background: url(../img/lib/icon-lider.png) center no-repeat;height:200px;width:100%;margin:115px 0 50px 0;}
 #lider-frame #img-lider{position:absolute;background: url(../img/lib/lider-img.png) center no-repeat;height:245px;width:100%;bottom:0;}
+#lider-frame #content-lider{font-size: 24px; color: #bcbcbc; position: absolute; margin-top: 375px; width:100%;}
 
 /* --- SOPORTE FRAME --- */
 .twocolumns {width: 40%; position: relative; float:left; color: white; padding: 60px 45px;}

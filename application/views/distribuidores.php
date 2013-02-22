@@ -1,6 +1,7 @@
 
-<div id="big-map">
-
+<div id="map-wrap">
+  <div id="big-map"></div>
+  <div id="map-data-box"></div>
 </div>
 
 <div class="limited">

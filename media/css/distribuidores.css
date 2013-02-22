@@ -1,2 +1,3 @@
-#big-map{height:540px; position:relative;}
-#map-data-box{height:300px;width:300px;border:solid 1px #ccc;background:#fff;top:30px;right:30px;}
+#map-wrap{position:relative;height:540px;width:100%;}
+#big-map{height:540px;}
+#map-data-box{height:300px;width:300px;border:solid 1px #ccc;background:#fff;top:30px;right:30px;position:absolute;z-index:11;}

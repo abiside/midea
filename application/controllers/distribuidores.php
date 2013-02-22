@@ -19,8 +19,11 @@ class Distribuidores extends CI_Controller {
 	 */
 	public function index()
 	{
+		//recibimos los datos de todos los distribuidores/partners
+		$partners = $this->Partners_model->lista();
+		$markers = $this->Partners_model->markers();
 
-		$vars = array("page_title"=>"Inicio", "title"=>false);
+		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers);
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('distribuidores',$vars,true)
 			));

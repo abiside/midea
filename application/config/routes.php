@@ -41,7 +41,7 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 $route['/(:any)'] = "/index.php/$1";
-
+$route['nosotros'] = "pages/nosotros";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -21,10 +21,10 @@ class Pages extends CI_Controller {
 	{
 	}
 
-	public function about(){
+	public function nosotros(){
 		$vars = array("page_title"=>"Sobre Nosotros");
 		$this->load->view('layout',array(
-				'contenido' => $this->load->view('about',$vars,true)
+				'contenido' => $this->load->view('nosotros',$vars,true)
 			));
 	}
 

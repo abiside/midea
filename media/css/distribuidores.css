@@ -1,1 +1,2 @@
-#big-map{height:500px;}
+#big-map{height:540px; position:relative;}
+#map-data-box{height:300px;width:300px;border:solid 1px #ccc;background:#fff;top:30px;right:30px;}

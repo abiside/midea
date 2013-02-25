@@ -12,7 +12,8 @@ class Partners_model extends CI_Model
 		$this->db->select("*,ciudades.nombre as ciudad, estados.nombre as estado")
 				->from("estados")
 				->join("ciudades", "ciudades.estado = estados.id")
-				->join("partners", "partners.ciudad = ciudades.id");
+				->join("partners", "partners.ciudad = ciudades.id")
+				->order_by("estados.nombre asc");
 
 		return $this->db->get()->result();
 	}

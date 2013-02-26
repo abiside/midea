@@ -43,7 +43,41 @@
 
 		<div id="content">
 			<?=$contenido?>
-			<div id="footer"></div>
+			<div id="footer">
+				<div id="footerinfo" class="limited">
+					<div id="leftarea">
+						<h1>Contáctanos</h1>
+						<span>Oficinas Corporativas</span><br>
+						Arq. Pedro Ramírez Vázquez #200 -4<br>
+						Col. Valle Oriente<br>
+						San Pedro Garza García, N.L.<br>
+						CP 66265<br>
+						Teléfono  (81) 81 00 6888<br><br>
+
+						<span>Ventas Zona Norte de México</span><br>
+						Lic. Federico Fuentes<br>
+						federico@midea.com.cn<br><br>
+
+						<span>Ventas Zona Centro y Sureste de México</span><br>
+						Lic. Luis Mendoza<br>
+						lmendoza@midea.com<br><br>
+
+						Ing. Ernesto Arguelles<br>
+						ernesto_arguelles@midea.com
+					</div>
+					<div id="map"></div>
+					<div id="rightarea">
+						<div>Subscribete a nuestro newsletter.</div>
+						<form>
+						 	<input class="innershadow" type="text" name="email" value="Email" onblur="if (this.value=='') this.value='Email';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+							<input value="Subscribirse" id="enviarbtn" type="submit">
+						</form>
+						<div id="bottombar"></div>
+						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>
+					</div>
+				</div>
+				<div id="copyright">&copy;2013 Midea. Todos los Derechos Reservados.</div>
+			</div>
 		</div>
 
 		

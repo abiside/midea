@@ -26,7 +26,25 @@ z-index:10;
 
 #header #menu-sup #menu-content #opciones .opcion:hover{border-bottom: 2px solid #00aeef; color: white; text-shadow: 0px 0px rgba(255,255,255,.4);}
 
-#footer{height:640px;background:url(../img/lib/bg-footer.png) repeat-x;}
+#footer{height:640px;background:url(../img/lib/bg-footer.png) repeat-x; -moz-box-shadow: inset 0px 5px 6px -5px #000;
+-webkit-box-shadow: inset 0px 5px 6px -5px #000;
+box-shadow: inset 0px 5px 6px -5px #000;}
+
+/* --- FOOTER --- */
+#footer #footerinfo {height:450px; border-bottom: 1px solid #00aeef; text-align: left;}
+#footer #footerinfo #map {background: url(../img/lib/footermap.jpg) no-repeat; position: absolute; margin: 100px 0px 0px 47px;}
+#footer #footerinfo #leftarea {color: white; font-size: 12px; float: left; width:47%; position: relative; z-index: 2; margin-left: 47px;}
+#footer #footerinfo #leftarea h1 {font-size: 50px; margin: 50px 0px 35px 0px;}
+#footer #footerinfo #leftarea span{font-weight: bold;}
+#footer #footerinfo #rightarea {color: white; font-size: 16px; float: right; width:47%; padding-top: 90px;}
+#footer #footerinfo #rightarea input {width:280px; height: 35px; padding: 0px 10px; color:#b6b6b6; font-size: 12px; border-radius: 3px; border: none; margin-top: 20px;}
+#footer #footerinfo #rightarea #enviarbtn {width: 300px; height:40px; border: 1px solid #04527f; background:url(../img/lib/btnbg.png) repeat-x; color: white; text-shadow: 0px 0px 6px rgba(0,0,0, 0.5);}
+#footer #footerinfo #rightarea #social {position: absolute; margin-top: -30px; margin-left: 250px;}
+#footer #footerinfo #rightarea #social a#twitter { display: block; float: left;background:url(../img/lib/twitter.png); height: 35px; width: 35px;}
+#footer #footerinfo #rightarea #social a#facebook { display: block; float: left; background:url(../img/lib/facebook.png); height: 35px; width: 35px; margin-left: 15px;}
+#footer #footerinfo #rightarea #social #facebook:hover, #footer #footerinfo #rightarea #social #twitter:hover {background-position: 0px 35px;}
+#footer #footerinfo #rightarea #bottombar {border-bottom: 1px solid #00aeef; width:300px; height:1px; margin: 55px 0px 40px 0px;}
+#footer #copyright { font-size: 10px; text-align: center; margin-top: 40px; color: white;}
 
 /* --- ESTILOS DE LA SECCION HOME --- */
 #big-slider{height:700px;background:url(../img/lib/slider-bg-1.jpg) center;}
@@ -69,6 +87,8 @@ box-shadow: inset 0px 5px 6px -5px #000;}
 
 /* --- CONTENIDO DE LA SECCIÓN DE CONTACTO ---- */
 #map{width:100%;height:400px;}
+
+
 
 /* --- PAGINA NOSOTROS ---- */
 #imagearea {background: url(../img/lib/aboutuspage.jpg) center no-repeat; position: relative; width:100%; height: 730px;}

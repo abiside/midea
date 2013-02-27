@@ -9,6 +9,7 @@
 
 <script src="<?=base_url()?>media/js/jquery.min.js"></script>
 <script src="<?=base_url()?>media/js/functions.js"></script>
+<script type="text/javascript" src="<?=base_url()?>media/js/scrollto.js"></script>
 
 <!-- HELVETICA FONT -->
 
@@ -28,7 +29,7 @@
 						<a href="<?=base_url()?>productos" class="opcion">Productos</a>
 						<a href="<?=base_url()?>nosotros" class="opcion">Nosotros</a>
 						<a href="<?=base_url()?>distribuidores" class="opcion">Distribuidores</a>
-						<a href="<?=base_url()?>#footer" class="opcion">Contacto</a>
+						<a href="javascript:scroll('footer');" class="opcion">Contacto</a>
 
 					</div>
 				</div>

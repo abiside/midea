@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	$('#slider').layerSlider({
+		slideDelay: 4000,
+		autoStart: true,
+		slideDirection: 'top',
+		pauseOnHover: false
+	});
 });
 
 function load_map(){
@@ -9,4 +15,8 @@ function load_map(){
         };
         var map = new google.maps.Map(document.getElementById("map"),
             mapOptions);
+}
+
+function scroll(id){
+	$("#" + id).ScrollTo();
 }

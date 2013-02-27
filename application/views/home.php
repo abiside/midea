@@ -1,7 +1,22 @@
-<div id="big-slider">
-	<div class="slider-content">
-		<div class="slider-text">Mejorando tu estilo de vida</div>
-		<div class="slider-img"><img src="<?=base_url()?>media/img/lib/slider-img-1.png"></div>
+<script src="<?=base_url()?>media/js/jquery-ui.min.js"></script>
+<script src="<?=base_url()?>media/js/layerslider.js"></script>
+<link rel="stylesheet" href="<?=base_url()?>media/css/slider.css" />
+<link rel="stylesheet" href="<?=base_url()?>media/css/layerslider.css" />
+
+<div id="slider">
+
+	<div class="ls-layer" id="slide1">
+		<img class="ls-bg" src="<?=base_url()?>media/img/slider/slider-bg-1.jpg">
+
+		<div class="ls-s1 slide-text" style="width:100%;top:80px;">Mejorando tu estilo de vida</div>
+		<div class="ls-s2 slide-img" style="top:190px;"><img src="<?=base_url()?>media/img/slider/slider-img-1.png"></div>
+	</div>
+
+	<div class="ls-layer" id="slide2" style="slidedirection: right">
+		<img class="ls-bg" src="<?=base_url()?>media/img/slider/slider-bg-2.jpg">
+
+		<div class="ls-s1 slide-text" style="width:100%;top:100px;">Mejorando tu estilo de vida</div>
+		<div class="ls-s2 slide-img" style="top:180px;"><img src="<?=base_url()?>media/img/slider/slider-img-2.png"></div>
 	</div>
 </div>
 

@@ -52,7 +52,7 @@
 <div id="lider-frame">
 	<div class="limited" style="height:705px;">
 		<div id="icon-lider"></div>
-			<div id="content-lider">Lorem Ipsum. Proin gravida nibh vel velitt iauris. endisse in orci enim.</div>
+			<div id="content-lider" class="didot">Lorem Ipsum. Proin gravida nibh vel velitt iauris. endisse in orci enim.</div>
 		<div id="img-lider"></div>
 	</div>
 </div>

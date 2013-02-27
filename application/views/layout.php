@@ -11,7 +11,6 @@
 <script src="<?=base_url()?>media/js/functions.js"></script>
 
 <!-- HELVETICA FONT -->
-<script type="text/javascript" src="http://fast.fonts.com/jsapi/fe265cf8-a127-4fda-ac82-0b2a87a0a950.js"></script>
 
 </head>
 
@@ -65,9 +64,8 @@
 						Ing. Ernesto Arguelles<br>
 						ernesto_arguelles@midea.com
 					</div>
-					<div id="map"></div>
 					<div id="rightarea">
-						<div>Subscribete a nuestro newsletter.</div>
+						Subscribete a nuestro newsletter.
 						<form>
 						 	<input class="innershadow" type="text" name="email" value="Email" onblur="if (this.value=='') this.value='Email';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
 							<input value="Subscribirse" id="enviarbtn" type="submit">
@@ -75,6 +73,7 @@
 						<div id="bottombar"></div>
 						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>
 					</div>
+					<div id="map"></div>
 				</div>
 				<div id="copyright">&copy;2013 Midea. Todos los Derechos Reservados.</div>
 			</div>

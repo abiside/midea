@@ -9,7 +9,7 @@
 		En 2008 llega a México para comercializar sus productos de la línea de aire acondicionado.
 	</div>
 	<div id="ceoarea">
-		<div id="ceoquote">
+		<div id="ceoquote" class="didot">
 		“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
 			<div id="ceoname"> 
 				- <span> JACKIE CHAN </span>  CEO MIDEA

@@ -8,7 +8,6 @@
 <link rel="stylesheet" href="<?=base_url()?>media/css/distribuidores.css" />
 
 <script src="<?=base_url()?>media/js/jquery.min.js"></script>
-<script src="<?=base_url()?>media/js/functions.js"></script>
 <script type="text/javascript" src="<?=base_url()?>media/js/scrollto.js"></script>
 
 <!-- HELVETICA FONT -->
@@ -88,3 +87,5 @@
 
 </body>
 </html>
+
+<script src="<?=base_url()?>media/js/functions.js"></script>

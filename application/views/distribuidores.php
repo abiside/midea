@@ -33,8 +33,9 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKP009lkOzAgIiLqM0mc6yVtIuEZNgW68&sensor=false">
 </script>
 <script type="text/javascript">
-$(document).ready(function(){
-	$("#big-map").gmap3({
+
+
+  $("#big-map").gmap3({
      map:{
         options:{
          center:[24.029561,-97.174072],
@@ -63,7 +64,7 @@ $(document).ready(function(){
     }
 
   });
-});
+
 
 function partner(id){
   $('#city' + id).ScrollTo({

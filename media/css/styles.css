@@ -2,6 +2,13 @@
 *, body, html { -webkit-font-smoothing: antialiased;}
 a{text-decoration:none;}
 
+@-moz-document url-prefix() {
+  .firefix {
+    font-weight: normal;
+  }
+}
+
+
 @font-face {
 	font-family: 'DidotLTPro-Italic';
 	src: url('../fonts/didot.eot');
@@ -27,7 +34,7 @@ a{text-decoration:none;}
          url('../fonts/helveticaneue_bold-webfont.svg#helveticaneuebold') format('svg'),
          url('../fonts/helveticaneue_bold-webfont.woff') format('woff'),
          url('../fonts/helveticaneue_bold-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -38,7 +45,7 @@ a{text-decoration:none;}
     	 url('../fonts/helveticaneue_light-webfont.svg#helveticaneuelight') format('svg'),
          url('../fonts/helveticaneue_light-webfont.woff') format('woff'),
          url('../fonts/helveticaneue_light-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 100;
     font-style: normal;
 
 }
@@ -46,7 +53,7 @@ a{text-decoration:none;}
 body{text-align:center; font-family:'helveticaneuelight', sans-serif; }
 
 .bold{font-weight: bold;}
-.didot {font-family: 'DidotLTPro-Italic', cursive;}
+.didot {font-family: 'DidotLTPro-Italic', sans-serif;}
 
 .last{margin-right:0 !important;}
 
@@ -57,6 +64,10 @@ box-shadow: 0px 2px 5px #333;
 z-index:10;
 }
 
+.fullframe {position:relative; z-index:3; background: white;-moz-box-shadow: 0px 5px 6px -5px #000;
+-webkit-box-shadow: 0px 5px 6px -5px #000;
+box-shadow: 0px 5px 6px -5px #000;}
+
 #header #menu-sup{background:#e0e0e0 url(../img/lib/menu-bg.png) repeat-x; height:80px;text-align:center; font-size: 14px; font-family:'helveticaneue', sans-serif;}
 #header #menu-sup #menu-content{width:960px;margin:auto;position:relative;}
 #header #menu-sup #menu-content #logo{width:210px;height:75px;position:absolute;background:url(../img/lib/logo.png) no-repeat center;margin:0;}
@@ -66,9 +77,10 @@ z-index:10;
 
 #header #menu-sup #menu-content #opciones .opcion:hover{border-bottom: 2px solid #00aeef; color: white; text-shadow: 0px 0px rgba(255,255,255,.4);}
 
-#footer{height:640px;background:url(../img/lib/bg-footer.png) repeat-x; -moz-box-shadow: inset 0px 5px 6px -5px #000;
--webkit-box-shadow: inset 0px 5px 6px -5px #000;
-box-shadow: inset 0px 5px 6px -5px #000;}
+#footer{height:640px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
+}
+
+#footerplaceholder { height: 640px; position: relative; z-index: 1; }
 
 /* --- FOOTER --- */
 #footer #footerinfo {height:450px; border-bottom: 1px solid #00aeef; text-align: left; font-family:'helveticaneue', sans-serif;}
@@ -88,6 +100,7 @@ box-shadow: inset 0px 5px 6px -5px #000;}
 #footer #copyright { font-size: 10px; text-align: center; margin-top: 40px; color: white;}
 
 /* --- ESTILOS DE LA SECCION HOME --- */
+#slider .ls-layer .sliderbg{width: 100% !important; left: 0; margin-left: auto; right: 0; margin-right: auto;}
 #big-slider{height:700px;background:url(../img/lib/slider-bg-1.jpg) center;}
 #big-slider .slider-content div{position:absolute;width:100%;}
 #big-slider .slider-content .slider-text{font-size:55px;color:#fff;margin:140px 0 20px 0px;font-family:'helveticaneuelight', sans-serif; text-shadow: 0px 2px 3px #333}
@@ -100,7 +113,7 @@ box-shadow: inset 0px 5px 6px -5px #000;}
 #big-buttons .button .text{text-align: justify;color:#888; font-size:16px; font-family: 'helveticaneue', sans-serif;}
 
 
-#soporte-frame{background: url(../img/lib/bg-frame-soporte.jpg) center no-repeat;height:465px;}
+#soporte-frame{background: url(../img/lib/bg-frame-soporte.jpg) center no-repeat;height:465px; background-size: cover;}
 #soporte-frame .shadow {background: url(../img/lib/soporteframe.png) repeat-x; position: absolute; height: 465px; width: 100%;}
 
 #lider-frame{background: url(../img/lib/bg-lider-frame.png) center repeat-x;height:705px;}
@@ -132,7 +145,7 @@ box-shadow: inset 0px 5px 6px -5px #000;}
 
 
 /* --- PAGINA NOSOTROS ---- */
-#imagearea {background: url(../img/lib/aboutuspage.jpg) center no-repeat; position: relative; width:100%; height: 730px;}
+#imagearea {background: url(../img/lib/aboutuspage.jpg) center no-repeat; position: relative; width:100%; height: 730px; background-size: 100%; box-shadow: 0px 1px 5px #777;}
 #nosotroscontenido { width:880px; padding: 85px 0px; margin: 0 auto; color: black; font-size: 16px; text-align: center;}
 #nosotroscontenido h1 {color:#00aeef; font-size: 24px; margin-bottom: 45px;}
 #nosotroscontenido #descripcion {}

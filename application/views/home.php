@@ -6,19 +6,19 @@
 <div id="slider">
 
 	<div class="ls-layer" id="slide1" >
-		<img class="ls-bg" src="<?=base_url()?>media/img/slider/slider-bg-3.jpg">
-		<div class="ls-s1 slide-text" style="width:100%;top:280px;">Mejorando tu estilo de vida</div>
+		<img class="ls-bg sliderbg" src="<?=base_url()?>media/img/slider/slider-bg-3.jpg">
+		<div class="ls-s1 slide-text firefix" style="width:100%;top:280px;">Mejorando tu estilo de vida</div>
 	</div>
 
 	<div class="ls-layer" id="slide2" style="">
-		<img class="ls-bg" src="<?=base_url()?>media/img/slider/slider-bg-2.jpg">
+		<img class="ls-bg sliderbg" src="<?=base_url()?>media/img/slider/slider-bg-2.jpg">
 
 		<div class="ls-s1 slide-text" style="width:100%;top:100px;">Mejorando tu estilo de vida</div>
 		<div class="ls-s2 slide-img" style="top:180px;"><img src="<?=base_url()?>media/img/slider/slider-img-2.png"></div>
 	</div>
 
 	<div class="ls-layer" id="slide3" style="">
-		<img class="ls-bg" src="<?=base_url()?>media/img/slider/slider-bg-1.jpg">
+		<img class="ls-bg sliderbg" src="<?=base_url()?>media/img/slider/slider-bg-1.jpg">
 
 		<div class="ls-s1 slide-text" style="width:100%;top:80px;">Mejorando tu estilo de vida</div>
 		<div class="ls-s2 slide-img" style="top:190px;"><img src="<?=base_url()?>media/img/slider/slider-img-1.png"></div>

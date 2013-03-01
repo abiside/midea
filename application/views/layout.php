@@ -41,7 +41,10 @@
 		
 
 		<div id="content">
+			<div class="fullframe">
 			<?=$contenido?>
+			</div>
+			<div id="footerplaceholder"></div>
 			<div id="footer">
 				<div id="footerinfo" class="limited">
 					<div id="leftarea">

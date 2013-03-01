@@ -28,7 +28,7 @@
 						<a href="<?=base_url()?>productos" class="opcion">Productos</a>
 						<a href="<?=base_url()?>nosotros" class="opcion">Nosotros</a>
 						<a href="<?=base_url()?>distribuidores" class="opcion">Distribuidores</a>
-						<a href="javascript:scroll('footer');" class="opcion">Contacto</a>
+						<a href="javascript:scroll('footerplaceholder');" class="opcion">Contacto</a>
 
 					</div>
 				</div>

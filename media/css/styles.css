@@ -75,12 +75,25 @@ box-shadow: 0px 5px 6px -5px #000;}
 #header #menu-sup #menu-content #opciones{position:absolute;right:0;height:40px;overflow-x:auto;margin-top:45px;}
 #header #menu-sup #menu-content #opciones .opcion{float:left; margin:0px 15px 0px 15px;display:block;color:#747474;font-size:14px; padding-bottom: 3px; text-shadow: 0px 1px rgba(255,255,255,.4);}
 
-#header #menu-sup #menu-content #opciones .opcion:hover{border-bottom: 2px solid #00aeef; color: white; text-shadow: 0px 0px rgba(255,255,255,.4);}
+#header #menu-sup #menu-content #opciones .opcion:hover{color: white; text-shadow: 0px 0px rgba(255,255,255,.4);}
 
-#footer{height:640px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
+#header #menu-sup #menu-content #opciones #selectedbar {height:2px; background-color:#00aeef; display:block; position: absolute; margin-top: 17px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    }
+#header #menu-sup #menu-content #opciones #selectedbar.shome {width:31px; margin-left: 15px;}
+#header #menu-sup #menu-content #opciones #selectedbar.sprod {width:63px; margin-left: 76px;}
+#header #menu-sup #menu-content #opciones #selectedbar.snoso {width:56px; margin-left: 168px;}
+#header #menu-sup #menu-content #opciones #selectedbar.sdist {width:83px; margin-left: 253px;}
+#header #menu-sup #menu-content #opciones #selectedbar.scont {width:57px; margin-left: 366px;}
+
+#footer{height:550px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
 }
 
-#footerplaceholder { height: 640px; position: relative; z-index: 1; }
+#footerplaceholder { height: 550px; position: relative; z-index: 1; }
 
 /* --- FOOTER --- */
 #footer #footerinfo {height:450px; border-bottom: 1px solid #00aeef; text-align: left; font-family:'helveticaneue', sans-serif;}
@@ -92,7 +105,7 @@ box-shadow: 0px 5px 6px -5px #000;}
 #footer #footerinfo #rightarea input {font-family:'helveticaneue', sans-serif; font-size:14px; width:280px; height: 35px; padding: 0px 10px; color:#b6b6b6; font-size: 14px; border-radius: 3px; border: none; margin-top: 20px;}
 #footer #footerinfo #rightarea #enviarbtn:hover {cursor: pointer;}
 #footer #footerinfo #rightarea #enviarbtn {font-family:'helveticaneuebold', sans-serif; width: 300px; height:40px; border: 1px solid #04527f; background:url(../img/lib/btnbg.png) repeat-x; color: white; text-shadow: 0px 0px 6px rgba(0,0,0, 0.5);}
-#footer #footerinfo #rightarea #social {position: absolute; margin-top: -30px; margin-left: 250px;}
+#footer #footerinfo #rightarea #social {position: absolute; margin-top: -30px; margin-left: 215px;}
 #footer #footerinfo #rightarea #social a#twitter { display: block; float: left;background:url(../img/lib/twitter.png); height: 35px; width: 35px;}
 #footer #footerinfo #rightarea #social a#facebook { display: block; float: left; background:url(../img/lib/facebook.png); height: 35px; width: 35px; margin-left: 15px;}
 #footer #footerinfo #rightarea #social #facebook:hover, #footer #footerinfo #rightarea #social #twitter:hover {background-position: 0px 35px;}
@@ -108,9 +121,16 @@ box-shadow: 0px 5px 6px -5px #000;}
 
 #big-buttons{width:960px;margin:80px auto 80px auto;height:500px;}
 #big-buttons .button{width:265px;min-height:400px;float:left;overflow-y:auto;margin-right:80px;}
-#big-buttons .button .title{font-size:24px;text-align: center;color:#00aeef;}
+#big-buttons .button .title{font-size:24px;text-align: center;color:#00aeef;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;}
 #big-buttons .button .icon{margin:45px 0 40px;}
 #big-buttons .button .text{text-align: justify;color:#888; font-size:16px; font-family: 'helveticaneue', sans-serif;}
+
+#big-buttons .button:hover .title { color: #999;}
 
 
 #soporte-frame{background: url(../img/lib/bg-frame-soporte.jpg) center no-repeat;height:465px; background-size: cover;}

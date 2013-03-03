@@ -24,11 +24,13 @@
 					<a href="<?=base_url()?>"><div id="logo"></div></a>
 					<div id="opciones">
 
-						<a href="<?=base_url()?>" class="opcion">Inicio</a>
-						<a href="<?=base_url()?>productos" class="opcion">Productos</a>
-						<a href="<?=base_url()?>nosotros" class="opcion">Nosotros</a>
-						<a href="<?=base_url()?>distribuidores" class="opcion">Distribuidores</a>
-						<a href="javascript:scroll('footerplaceholder');" class="opcion">Contacto</a>
+						<a href="<?=base_url()?>" class="opcion" id="home">Inicio</a>
+						<a href="<?=base_url()?>productos" class="opcion" id="prod">Productos</a>
+						<a href="<?=base_url()?>nosotros" class="opcion" id="noso">Nosotros</a>
+						<a href="<?=base_url()?>distribuidores" class="opcion" id="dist">Distribuidores</a>
+						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta">Contacto</a>
+
+						<div id="selectedbar" class="shome"></div>
 
 					</div>
 				</div>

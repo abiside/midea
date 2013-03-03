@@ -5,6 +5,23 @@ $(document).ready(function(){
 		slideDirection: 'top',
 		pauseOnHover: false
 	});
+
+	$('#home').mouseenter(function() {
+	  $('#selectedbar').removeClass().addClass("shome");
+	});
+	$('#prod').mouseenter(function() {
+	  $('#selectedbar').removeClass().addClass("sprod");
+	});
+	$('#noso').mouseenter(function() {
+	  $('#selectedbar').removeClass().addClass("snoso");
+	});
+	$('#dist').mouseenter(function() {
+	  $('#selectedbar').removeClass().addClass("sdist");
+	});
+	$('#conta').mouseenter(function() {
+	  $('#selectedbar').removeClass().addClass("scont");
+	});
+
 });
 
 function load_map(){

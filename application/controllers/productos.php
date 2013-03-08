@@ -21,7 +21,7 @@ class Productos extends CI_Controller {
 	{
 
 
-		$vars = array("page_title"=>"Productos", "title"=>fals);
+		$vars = array("page_title"=>"Productos", "title"=>false);
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('productos',$vars,true)
 			));

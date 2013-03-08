@@ -72,7 +72,17 @@
 					<div id="rightarea">
 						Subscribete a nuestro newsletter.
 						<form>
-						 	<input class="innershadow" type="text" name="email" value="Email" onblur="if (this.value=='') this.value='Email';" onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+
+							<input class="innershadow" type="text" name="nombre" value="Nombre" 
+						 	onblur="if (this.value=='') this.value='Nombre';" 
+						 	onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+
+						 	<input class="innershadow" type="text" name="email" value="Email" 
+						 	onblur="if (this.value=='') this.value='Email';" 
+						 	onfocus=" if(!this._haschanged){this.value=''};this._haschanged=true;">
+
+						 	<textarea name="mensaje" class="innershadow">Mensaje</textarea>
+
 							<input value="Subscribirse" id="enviarbtn" type="submit">
 						</form>
 						<div id="bottombar"></div>

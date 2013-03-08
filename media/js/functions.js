@@ -7,19 +7,28 @@ $(document).ready(function(){
 	});
 
 	$('#home').mouseenter(function() {
-	  $('#selectedbar').removeClass().addClass("shome");
+	  $('#selectedbar').addClass("shome");
+	  $("#home").mouseout(function(){ 
+	  	if (!$("#selectedbar").hasClass("shome")) {
+	  		$this.removeClass("shome");
+	  	}
+	  });
 	});
 	$('#prod').mouseenter(function() {
-	  $('#selectedbar').removeClass().addClass("sprod");
+	  $('#selectedbar').addClass("sprod");
+	  $("#prod").mouseout(function(){ $('#selectedbar').removeClass("sprod");});
 	});
 	$('#noso').mouseenter(function() {
-	  $('#selectedbar').removeClass().addClass("snoso");
+	  $('#selectedbar').addClass("snoso");
+	  $("#noso").mouseout(function(){ $('#selectedbar').removeClass("snoso");});
 	});
 	$('#dist').mouseenter(function() {
-	  $('#selectedbar').removeClass().addClass("sdist");
+	  $('#selectedbar').addClass("sdist");
+	  $("#dist").mouseout(function(){ $('#selectedbar').removeClass("sdist");});
 	});
 	$('#conta').mouseenter(function() {
-	  $('#selectedbar').removeClass().addClass("scont");
+	  $('#selectedbar').addClass("scont");
+	  $("#conta").mouseout(function(){ $('#selectedbar').removeClass("scont");});
 	});
 
 });

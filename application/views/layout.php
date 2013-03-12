@@ -10,6 +10,10 @@
 <script src="<?=base_url()?>media/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?=base_url()?>media/js/scrollto.js"></script>
 
+<script type="text/javascript" src="<?=base_url()?>media/js/gmap3.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKP009lkOzAgIiLqM0mc6yVtIuEZNgW68&sensor=false">
+</script>
+
 <!-- HELVETICA FONT -->
 
 </head>
@@ -50,7 +54,9 @@
 			<div id="footer">
 				<div id="footerinfo" class="limited">
 					<div id="leftarea">
+						
 						<h1>Contáctanos</h1>
+						<div id="mapita"></div>
 						<span>Oficinas Corporativas</span><br>
 						Arq. Pedro Ramírez Vázquez #200 -4<br>
 						Col. Valle Oriente<br>
@@ -58,7 +64,7 @@
 						CP 66265<br>
 						Teléfono  (81) 81 00 6888<br><br>
 
-						<span>Ventas Zona Norte de México</span><br>
+						<!--<span>Ventas Zona Norte de México</span><br>
 						Lic. Federico Fuentes<br>
 						federico@midea.com.cn<br><br>
 
@@ -67,10 +73,10 @@
 						lmendoza@midea.com<br><br>
 
 						Ing. Ernesto Arguelles<br>
-						ernesto_arguelles@midea.com
+						ernesto_arguelles@midea.com-->
 					</div>
 					<div id="rightarea">
-						Subscribete a nuestro newsletter.
+						Escríbenos.
 						<form>
 
 							<input class="innershadow" type="text" name="nombre" value="Nombre" 
@@ -83,12 +89,11 @@
 
 						 	<textarea name="mensaje" class="innershadow">Mensaje</textarea>
 
-							<input value="Subscribirse" id="enviarbtn" type="submit">
+							<input value="Enviar" id="enviarbtn" type="submit">
 						</form>
-						<div id="bottombar"></div>
-						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>
+						<!--<div id="bottombar"></div>
+						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>-->
 					</div>
-					<div id="map"></div>
 				</div>
 				<div id="copyright">&copy;2013 Midea. Todos los Derechos Reservados.</div>
 			</div>

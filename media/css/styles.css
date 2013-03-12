@@ -97,7 +97,7 @@ box-shadow: 0px 5px 6px -5px #000;}
 
 /* --- FOOTER --- */
 #footer #footerinfo {height:450px; border-bottom: 1px solid #00aeef; text-align: left; font-family:'helveticaneue', sans-serif;}
-#footer #footerinfo #map {background: url(../img/lib/footermap.jpg) no-repeat; position: absolute; margin: 100px 0px 0px 47px;}
+/*#footer #footerinfo #map {background: url(../img/lib/footermap.jpg) no-repeat; position: absolute; margin: 100px 0px 0px 47px;}*/
 #footer #footerinfo #leftarea {color: white; font-size: 13px; float: left; width:47%; position: relative; z-index: 2; margin-left: 47px;}
 #footer #footerinfo #leftarea h1 {font-size: 50px; margin: 50px 0px 35px 0px; font-family: 'helveticaneuebold', sans-serif; }
 #footer #footerinfo #leftarea span{font-weight: bold; font-family: 'helveticaneuebold', sans-serif;}
@@ -111,6 +111,8 @@ box-shadow: 0px 5px 6px -5px #000;}
 #footer #footerinfo #rightarea #social #facebook:hover, #footer #footerinfo #rightarea #social #twitter:hover {background-position: 0px 35px;}
 #footer #footerinfo #rightarea #bottombar {border-bottom: 1px solid #00aeef; width:300px; height:1px; margin: 55px 0px 40px 0px;}
 #footer #copyright { font-size: 10px; text-align: center; margin-top: 40px; color: white;}
+
+#mapita{height:170px;width:400px;border:solid 1px #fff;margin-bottom:30px;}
 
 /* --- ESTILOS DE LA SECCION HOME --- */
 .slidesbg {background-attachment: fixed; width:100%; height: 100%; background-size: cover;}
@@ -169,8 +171,8 @@ box-shadow: 0px -5px 6px -5px #000;}
 #lider-frame #content-lider{font-size: 24px; color: #bcbcbc; position: absolute; margin-top: 375px; width:100%;}
 
 /* --- SOPORTE FRAME --- */
-.twocolumns {width: 42%; position: relative; float:left; color: white; padding: 60px 38px;}
-.twocolumns div {text-shadow: 0px 0px 6px rgba(0,0,0, 0.5); margin-bottom: 40px; text-align: left; font-size: 16px;}
+.twocolumns {width: 100%; position: relative; float:left; color: white; padding-top: 60px;text-align: center}
+.twocolumns div {text-shadow: 0px 0px 6px rgba(0,0,0, 0.5); margin-bottom: 40px; text-align: left; font-size: 16px;text-align: center;}
 .twocolumns .bigtext {font-size: 50px; font-weight: bold; font-family: 'helveticaneuebold', sans-serif;}
 
 .twocolumns form {text-align: left;}

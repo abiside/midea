@@ -22,7 +22,7 @@ class Pages extends CI_Controller {
 	}
 
 	public function nosotros(){
-		$vars = array("page_title"=>"Sobre Nosotros");
+		$vars = array("page_title"=>"Sobre Nosotros", "page"=>"about");
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('nosotros',$vars,true)
 			));

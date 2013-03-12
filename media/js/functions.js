@@ -6,27 +6,27 @@ $(document).ready(function(){
 		pauseOnHover: false
 	});
 
+	var current = $("#selectedbar").attr('class');
+
 	$('#home').mouseenter(function() {
 	  $('#selectedbar').addClass("shome");
-	  $("#home").mouseout(function(){ 
-	  	
-	  });
+	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
 	});
 	$('#prod').mouseenter(function() {
 	  $('#selectedbar').addClass("sprod");
-	  $("#prod").mouseout(function(){ $('#selectedbar').removeClass("sprod");});
+	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
 	});
 	$('#noso').mouseenter(function() {
 	  $('#selectedbar').addClass("snoso");
-	  $("#noso").mouseout(function(){ $('#selectedbar').removeClass("snoso");});
+	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
 	});
 	$('#dist').mouseenter(function() {
 	  $('#selectedbar').addClass("sdist");
-	  $("#dist").mouseout(function(){ $('#selectedbar').removeClass("sdist");});
+	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
 	});
 	$('#conta').mouseenter(function() {
 	  $('#selectedbar').addClass("scont");
-	  $("#conta").mouseout(function(){ $('#selectedbar').removeClass("scont");});
+	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
 	});
 
 });

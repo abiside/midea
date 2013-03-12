@@ -9,9 +9,7 @@ $(document).ready(function(){
 	$('#home').mouseenter(function() {
 	  $('#selectedbar').addClass("shome");
 	  $("#home").mouseout(function(){ 
-	  	if (!$("#selectedbar").hasClass("shome")) {
-	  		$this.removeClass("shome");
-	  	}
+	  	
 	  });
 	});
 	$('#prod').mouseenter(function() {

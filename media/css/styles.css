@@ -206,5 +206,34 @@ box-shadow: inset 0px -15px 9px -15px #333;}
 #nosotroscontenido #ceoarea #ceoquote #ceoname span { font-family:'helveticaneuebold', sans-serif;}
 #nosotroscontenido #ceoimg {height: 245px; width: 245px; float: right; background: url(../img/lib/CEO.png);}
 
+/* --- PAGINA PRODUCTOS --- */
 
+#productosintro {width:100%; height: 620px; padding-top:110px; background: url(../img/lib/productosbg.png); position: relative; }
+#productosintro #introtitle { margin:0px auto 55px; font-size: 60px; color: #fff; text-shadow: 0px 2px 3px #333;}
+#productosintro #productosimg {background: url(../img/lib/productosintro.png); width:773px; height: 283px; display:block; margin: 0 auto; }
+
+.producto { height:550px; width:100%; position: relative; background-color: white; }
+.producto .productocontent {height:100%; width:880px; margin: 85px 0px 95px; position: absolute; left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+ }
+ .producto .productodivision { background: url(../img/lib/divider.png); height:27px; width:882px; position: absolute;left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;}
+.producto .productocontent .infoarea { float:left; width:290px; font-size: 14px; text-align: left;}
+.producto .productocontent .modelotitle {font-size: 24px; color: #00aeef;}
+.producto .productocontent .modeloinfo {margin: 20px 0px;}
+.producto .productocontent .modeloinfo ul {margin: 25px 0px 50px 15px; list-style: none;}
+.producto .productocontent .modeloinfo li {padding-left: 15px; }
+.producto .productocontent a { text-align: center; border-radius: 3px; display:block; font-family:'helveticaneuebold', sans-serif; font-size:16px; line-height: 30px; width: 150px; height:30px; border: 1px solid #04527f; background:url(../img/lib/btnbg.png) repeat-x; color: white; text-shadow: 0px 0px 6px rgba(0,0,0, 0.5); }
+
+.producto .imgarea {float: right; height: 350px; width:585px;}
+.producto .imgarea .modeloimg {height: 350px; position: relative;}
+.producto img {top: 0; bottom: 0; left: 0; right: 0; margin: auto; position: absolute;}
+
+.productopar {background-color: #f0f0f0;}
+.productopar .productocontent .infoarea {float: right;}
+.productopar .productocontent .imgarea {float: left;}
 

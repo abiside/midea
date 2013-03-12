@@ -1,20 +1,336 @@
-<div id="imagearea"></div>
+<div id="productosintro">
+	<div id="introtitle">Productos</div>
+	<div id="productosimg"></div>
+</div>
 
-<div id="nosotroscontenido">
-	<h1>Nosotros</h1>
-	<div id="descripcion">
-		Midea es una empresa fundada en Shunde, Guangdong, capital de los electrodomésticos en China.<br><br>
-		Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, nuevas tecnologías y la innovación continua.<br><br>
-		Midea se ha desarrollado desde una empresa pequeña a ser una empresa de clase mundial en línea blanca, ofreciendo productos de alta calidad a precios muy competitivos. Sus productos principales incluyen minisplits, aire acondicionado comercial, lavadoras, refrigeradores, dispensadores de agua, hornos de microondas, lavavajillas, ventiladores eléctricos, calentadores eléctricos, calentadores de agua, hornos eléctricos, aspiradoras, enseres domésticos, así como otros productos de apoyo, tales como compresores, motores eléctricos, magnetrones y transformadores.<br><br>
-		En 2008 llega a México para comercializar sus productos de la línea de aire acondicionado.
-	</div>
-	<div id="ceoarea">
-		<div id="ceoquote" class="didot">
-		“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
-			<div id="ceoname"> 
-				- <span> JACKIE CHAN </span>  CEO MIDEA
+<div class="producto productoimpar">
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item1.png">
 			</div>
 		</div>
-		<div id="ceoimg"></div>
+	</div>
+</div>
+
+<div class="producto productopar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item2.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="producto productoimpar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item3.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="producto productopar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item4.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="producto productoimpar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item5.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="producto productopar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item6.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="producto productoimpar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item7.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="producto productopar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item8.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="producto productoimpar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item9.png">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="producto productopar">
+
+	<div class="productodivision"></div>
+	<div class="productocontent">
+		<div class="infoarea">
+			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modeloinfo">
+				Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>
+			</div>
+			<a href="#">Descarga PDF</a>
+		</div>
+		<div class="imgarea">
+			<div class="modeloimg">
+				<img src="<?=base_url()?>media/img/productos/item10.png">
+			</div>
+		</div>
 	</div>
 </div>

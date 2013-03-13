@@ -27,17 +27,17 @@
 			<div class="button">
 				<div class="title">Sobre Nosotros</div>
 				<div class="icon"><img class="zoomico" src="<?=base_url()?>media/img/lib/icon-nosotros.png"><img src="<?=base_url()?>media/img/lib/ironcircle.png"></div>
-				<div class="text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio</div>
+				<div class="text">Conoce más sobre la marca, su origen, y su logros.</div>
 			</div>
 			<div class="button">
 				<div class="title">Productos</div>
 				<div class="icon"><img class="zoomico" src="<?=base_url()?>media/img/lib/icon-productos.png"><img src="<?=base_url()?>media/img/lib/ironcircle.png"></div>
-				<div class="text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio</div>
+				<div class="text">Tenemos equipos para cubrir todas las necesidades, busca el mejor para ti.</div>
 			</div>
 			<div class="button last">
 				<div class="title">Distribuidor</div>
 				<div class="icon"><img class="zoomico" src="<?=base_url()?>media/img/lib/icon-distribuidor.png"><img src="<?=base_url()?>media/img/lib/ironcircle.png"></div>
-				<div class="text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio</div>
+				<div class="text">Contamos con una red de distribuidores autorizados a nivel nacional que están listos para ofrecer el mejor servicio y calidad, busca el más cercano a tí.</div>
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 <div id="lider-frame">
 	<div class="limited" style="height:705px;">
 		<div id="icon-lider"></div>
-			<div id="content-lider" class="didot">Lorem Ipsum. Proin gravida nibh vel velitt iauris. endisse in orci enim.</div>
+			<div id="content-lider" class="didot">"La mejor calidad, el mayor ahorro."</div>
 		<div id="img-lider"></div>
 	</div>
 </div>

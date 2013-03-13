@@ -49,9 +49,9 @@
 	<div class="limited">
 		<div class="twocolumns">
 			<div class="bigtext">Servicio Técnico</div>
-			<div>Contacta a nuestro servicio técnico para cualquier duda o servicio que requiera tu equipo.</div>
-			<input value="Enviar" id="enviarbtn" type="submit">
-			<div class="bigtext">Lada Nacional</div>
+			<div>Conóce nuestro servicio  de soporte técnico para cualquier duda <br>o servicio que requiera tu equipo..</div>
+			<input value="Ver directorio" id="enviarbtn" type="submit">
+			<div>También puede comunicarte con nosotros a través de nuestra lada nacional.</div>
 			<div class="bigtext">01 800 000 0808</div>
 		</div>
 		

@@ -5,25 +5,25 @@ $(window).load(function(){
 	var current = $("#selectedbar").attr('class');
 
 	$('#home').mouseenter(function() {
-	  $('#selectedbar').addClass("shome");
-	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
+	  $('#selectedbar').removeClass().addClass("shome");
 	});
 	$('#prod').mouseenter(function() {
-	  $('#selectedbar').addClass("sprod");
-	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
+	  $('#selectedbar').removeClass().addClass("sprod");
 	});
 	$('#noso').mouseenter(function() {
-	  $('#selectedbar').addClass("snoso");
-	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
+	  $('#selectedbar').removeClass().addClass("snoso");
+	});
+	$('#sopo').mouseenter(function() {
+	  $('#selectedbar').removeClass().addClass("ssopo");
 	});
 	$('#dist').mouseenter(function() {
-	  $('#selectedbar').addClass("sdist");
-	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
+	  $('#selectedbar').removeClass().addClass("sdist");
 	});
 	$('#conta').mouseenter(function() {
-	  $('#selectedbar').addClass("scont");
-	  $(this).mouseout(function(){ $("#selectedbar").removeClass().addClass(current); });
+	  $('#selectedbar').removeClass().addClass("scont");
 	});
+
+	$('#opciones').mouseleave(function(){ $("#selectedbar").removeClass().addClass(current); });
 
 	//load_map();
 

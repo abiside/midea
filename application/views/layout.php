@@ -31,6 +31,7 @@
 						<a href="<?=base_url()?>" class="opcion" id="home">Inicio</a>
 						<a href="<?=base_url()?>productos" class="opcion" id="prod">Productos</a>
 						<a href="<?=base_url()?>nosotros" class="opcion" id="noso">Nosotros</a>
+						<a href="<?=base_url()?>distribuidores" class="opcion" id="sopo">Soporte técnico</a>
 						<a href="<?=base_url()?>distribuidores" class="opcion" id="dist">Distribuidores</a>
 						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta">Contacto</a>
 
@@ -56,7 +57,6 @@
 					<div id="leftarea">
 						
 						<h1>Contáctanos</h1>
-						<div id="mapita"></div>
 						<span>Oficinas Corporativas</span><br>
 						Arq. Pedro Ramírez Vázquez #200 -4<br>
 						Col. Valle Oriente<br>
@@ -64,7 +64,7 @@
 						CP 66265<br>
 						Teléfono  (81) 81 00 6888<br><br>
 
-						<!--<span>Ventas Zona Norte de México</span><br>
+						<span>Ventas Zona Norte de México</span><br>
 						Lic. Federico Fuentes<br>
 						federico@midea.com.cn<br><br>
 
@@ -73,11 +73,11 @@
 						lmendoza@midea.com<br><br>
 
 						Ing. Ernesto Arguelles<br>
-						ernesto_arguelles@midea.com-->
+						ernesto_arguelles@midea.com
 					</div>
 					<div id="rightarea">
-						Escríbenos.
-						<form>
+						<a href="<?=base_url()?>distribuidores"><div id="mapita"></div></a>
+						<!--<form>
 
 							<input class="innershadow" type="text" name="nombre" value="Nombre" 
 						 	onblur="if (this.value=='') this.value='Nombre';" 
@@ -90,9 +90,12 @@
 						 	<textarea name="mensaje" class="innershadow">Mensaje</textarea>
 
 							<input value="Enviar" id="enviarbtn" type="submit">
-						</form>
-						<!--<div id="bottombar"></div>
-						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>-->
+						</form-->
+
+
+
+						<div id="bottombar"></div>
+						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>
 					</div>
 				</div>
 				<div id="copyright">&copy;2013 Midea. Todos los Derechos Reservados.</div>

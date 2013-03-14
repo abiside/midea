@@ -31,8 +31,8 @@
 						<a href="<?=base_url()?>" class="opcion" id="home">Inicio</a>
 						<a href="<?=base_url()?>productos" class="opcion" id="prod">Productos</a>
 						<a href="<?=base_url()?>nosotros" class="opcion" id="noso">Nosotros</a>
-						<a href="<?=base_url()?>distribuidores" class="opcion" id="sopo">Soporte técnico</a>
-						<a href="<?=base_url()?>distribuidores" class="opcion" id="dist">Distribuidores</a>
+						<a href="<?=base_url()?>centros-de-servicio" class="opcion" id="sopo">Soporte técnico</a>
+						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist">Distribuidores</a>
 						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta">Contacto</a>
 
 						<div id="selectedbar" class="shome"></div>

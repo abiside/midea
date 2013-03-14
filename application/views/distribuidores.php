@@ -5,12 +5,11 @@
     <div id="data-title"><?=count($partners)?> DISTRIBUIDORES</div>
     <div id="partners-wrap">
 
+      <div id="selecciona">SELECCIONA EL ESTADO DE TU PREFERENCIA</div>
+
       <?php foreach($partners as $p): ?>
-        <div class="partner" 
-            <?php if($aux[$p->city]): $aux[$p->city] = false; ?>
-              id="city<?=$p->city?>"
-            <?php endif ?>
-        >
+
+        <div class="partner gp-<?=$p->state?>">
             <div class="icon"></div>
             <div class="info">
                 <div class="nombre"><?=$p->nombre?></div>
@@ -18,6 +17,7 @@
                 <div class="telefono"><?=$p->telefono?></div>
             </div>
         </div>
+
       <?php endforeach ?>
 
     </div>
@@ -29,9 +29,9 @@
 </div>
 
 
-
 <script type="text/javascript">
 
+var estados = <?=$estados?>;
 
   $("#big-map").gmap3({
      map:{
@@ -65,9 +65,10 @@
 
 
 function partner(id){
-  $('#city' + id).ScrollTo({
-    onlyIfOutside: false
-  });
+  $("#selecciona").hide();
+  $(".partner").hide();
+  $('.gp-' + id).fadeIn(1000);
+  $("#data-title").html(estados[id]);
 }
 </script>
 

@@ -9,7 +9,7 @@ class Partners_model extends CI_Model
 	}
 	
 	function lista($tipo){
-		$this->db->select("*,ciudades.nombre as ciudad, estados.nombre as estado, ciudades.id as city")
+		$this->db->select("*,ciudades.nombre as ciudad, estados.nombre as estado, ciudades.id as city, estados.id as state")
 				->from("estados")
 				->join("ciudades", "ciudades.estado = estados.id")
 				->join("partners", "partners.ciudad = ciudades.id")
@@ -26,12 +26,21 @@ class Partners_model extends CI_Model
 
 		foreach($lista as $d){
 			$address = $d->estado;
-			$aux = array("id"=>$d->city, "address" => $address, "options"=>array("icon" => base_url()."media/img/lib/marker.png"));
+			$aux = array("id"=>$d->state, "address" => $address, "options"=>array("icon" => base_url()."media/img/lib/marker.png"));
 			array_push($markers, $aux);
 		}
 		//standar marker array
 		return json_encode($markers);
 
+	}
+
+	function estados(){
+		$estados = array();
+		$data = $this->db->from("estados")->order_by("id")->get()->result();
+		foreach($data as $d){
+			$estados[$d->id] = $d->nombre;
+		}
+		return $estados;
 	}
 	
 }

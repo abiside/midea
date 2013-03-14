@@ -2,12 +2,17 @@
 
 class Partners extends CI_Controller {
 
+	function __construct(){
+		parent::__construct();
+		$estados = json_encode($this->Partners_model->estados());
+	}
 
 	public function index()
 	{
 		//recibimos los datos de todos los distribuidores/partners
 		$partners = $this->Partners_model->lista(1)->get()->result();
 		$markers = $this->Partners_model->markers(1);
+		$estados = json_encode($this->Partners_model->estados());
 
 		//marcadores para join con direcciones
 		$markers_aux = array();
@@ -15,7 +20,7 @@ class Partners extends CI_Controller {
 			$markers_aux[$p->city] = true;
 		}
 
-		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux);
+		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux, "estados"=>$estados);
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('distribuidores',$vars,true)
 			));
@@ -26,6 +31,8 @@ class Partners extends CI_Controller {
 		//recibimos los datos de todos los distribuidores/partners
 		$partners = $this->Partners_model->lista(2)->get()->result();
 		$markers = $this->Partners_model->markers(2);
+		$estados = json_encode($this->Partners_model->estados());
+
 
 		//marcadores para join con direcciones
 		$markers_aux = array();
@@ -33,7 +40,7 @@ class Partners extends CI_Controller {
 			$markers_aux[$p->city] = true;
 		}
 
-		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux);
+		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux, "estados"=>$estados);
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('distribuidores',$vars,true)
 			));

@@ -8,23 +8,24 @@ class Partners_model extends CI_Model
 		parent::__construct();
 	}
 	
-	function lista(){
+	function lista($tipo){
 		$this->db->select("*,ciudades.nombre as ciudad, estados.nombre as estado, ciudades.id as city")
 				->from("estados")
 				->join("ciudades", "ciudades.estado = estados.id")
 				->join("partners", "partners.ciudad = ciudades.id")
+				->where("tipo", $tipo)
 				->order_by("estados.nombre asc, ciudades.nombre asc");
 
 		return $this->db;
 	}
 
-	function markers(){
-		$lista = $this->lista()->group_by("ciudades.nombre")->get()->result();
+	function markers($tipo){
+		$lista = $this->lista($tipo)->group_by("estados.nombre")->get()->result();
 
 		$markers = array();
 
 		foreach($lista as $d){
-			$address = $d->ciudad . ", " . $d->estado;
+			$address = $d->estado;
 			$aux = array("id"=>$d->city, "address" => $address, "options"=>array("icon" => base_url()."media/img/lib/marker.png"));
 			array_push($markers, $aux);
 		}

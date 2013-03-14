@@ -43,5 +43,8 @@ $route['404_override'] = '';
 $route['/(:any)'] = "/index.php/$1";
 $route['nosotros'] = "pages/nosotros";
 
+$route['distribuidores'] = "partners";
+$route['centros-de-servicio'] = "partners/servicio";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

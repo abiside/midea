@@ -66,14 +66,14 @@
 
 						<span>Ventas Zona Norte de México</span><br>
 						Lic. Federico Fuentes<br>
-						federico@midea.com.cn<br><br>
+						<a href="mailto:federico@midea.com.cn">federico@midea.com.cn</a><br><br>
 
 						<span>Ventas Zona Centro y Sureste de México</span><br>
 						Lic. Luis Mendoza<br>
-						lmendoza@midea.com<br><br>
+						<a href="mailto:lmendoza@midea.com">lmendoza@midea.com</a><br><br>
 
 						Ing. Ernesto Arguelles<br>
-						ernesto_arguelles@midea.com
+						<a href="ernesto_arguelles@midea.com">ernesto_arguelles@midea.com</a>
 					</div>
 					<div id="rightarea">
 						<a href="<?=base_url()?>distribuidores"><div id="mapita"></div></a>

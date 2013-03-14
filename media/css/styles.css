@@ -96,6 +96,8 @@ box-shadow: 0px 0px 7px 0px #000;}
 
 #footer{height:550px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
 }
+#footer a{font-weight:bold; color:#fff;}
+#footer a:hover{text-decoration: underline;}
 
 #footerplaceholder { height: 550px; position: relative; z-index: 1; }
 
@@ -145,14 +147,14 @@ box-shadow: 0px 0px 7px 0px #333;}
 
 
 #big-buttons{width:960px;margin:0 auto ; height:500px;}
-#big-buttons .button{width:265px;min-height:400px;float:left;overflow-y:auto;margin-right:80px;}
+#big-buttons .button{width:265px;min-height:400px;float:left;overflow-y:auto;margin-right:80px;display:block;}
 #big-buttons .button .title{font-size:24px;text-align: center;color:#00aeef;
 -webkit-transition: all 0.2s linear;
 -moz-transition: all 0.2s linear;
 -o-transition: all 0.2s linear;
 -ms-transition: all 0.2s linear;
 transition: all 0.2s linear;}
-#big-buttons .button .icon{margin:45px 0 40px; height:255px; position: relative;}
+#big-buttons .button .icon{margin:45px 0 40px; height:255px; position: relative;overflow:hidden;}
 #big-buttons .button .icon img {position: absolute; left: 0;}
 #big-buttons .button .zoomico {
 -webkit-transition: all 0.2s linear;
@@ -179,7 +181,7 @@ transform: scale(1.1);}
 box-shadow: 0px -5px 6px -5px #000;}
 #lider-frame #icon-lider{position:absolute;background: url(../img/lib/icon-lider.png) center no-repeat;height:200px;width:100%;margin:115px 0 50px 0;}
 #lider-frame #img-lider{position:absolute;background: url(../img/lib/lider-img.png) center no-repeat;height:245px;width:100%;bottom:0;}
-#lider-frame #content-lider{font-size: 24px; color: #bcbcbc; position: absolute; margin-top: 375px; width:100%;}
+#lider-frame #content-lider{font-size: 24px; color: #909090; position: absolute; margin-top: 375px; width:100%;}
 
 /* --- SOPORTE FRAME --- */
 .twocolumns {width: 100%; position: relative; float:left; color: white; padding-top: 60px;text-align: center}

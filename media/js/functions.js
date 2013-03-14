@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(document).ready(function(){
 
 
 
@@ -35,6 +35,10 @@ $(window).load(function(){
 		slideDirection: 'top',
 		pauseOnHover: false
 	});
+	
+
+	//Efectos con scroll (slider stay)
+
 
 });
 

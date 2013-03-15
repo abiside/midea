@@ -28,7 +28,7 @@ $(document).ready(function(){
 	//load_map();
 
 
-	//Efectos con scroll (slider stay)
+	//Efectos con scroll (slider & productintro )
 
 	var scroll_critical = 650; //for product
 	
@@ -37,6 +37,7 @@ $(document).ready(function(){
 		 	$("#productosintro, #slider").addClass("displaynone");
 		else $("#productosintro, #slider").removeClass("displaynone");
     })
+
 
     	//dejar al final del window load o document ready (si no falla)
 	$('#slider').layerSlider({

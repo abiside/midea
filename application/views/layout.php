@@ -16,7 +16,17 @@
 
 <!-- HELVETICA FONT -->
 
-</head>
+</head> 
+
+<?php
+ switch ($page) {
+ 	case 'productos': $sbar = "sprod"; break;
+ 	case 'about': $sbar = "snoso"; break;
+ 	case 'soporte': $sbar = "ssopo"; break;
+ 	case 'distribuidores': $sbar = "sdist"; break;
+ 	default: $sbar = "shome"; break;
+ }
+ ?>
 
 <body>
 
@@ -35,7 +45,7 @@
 						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist">Distribuidores</a>
 						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta">Contacto</a>
 
-						<div id="selectedbar" class="shome"></div>
+						<div id="selectedbar" class="<?php echo $sbar; ?>"></div>
 
 					</div>
 				</div>

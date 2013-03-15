@@ -20,7 +20,7 @@ class Partners extends CI_Controller {
 			$markers_aux[$p->city] = true;
 		}
 
-		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux, "estados"=>$estados);
+		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux, "estados"=>$estados, "page"=>"distribuidores");
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('distribuidores',$vars,true)
 			));
@@ -40,7 +40,7 @@ class Partners extends CI_Controller {
 			$markers_aux[$p->city] = true;
 		}
 
-		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux, "estados"=>$estados);
+		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux, "estados"=>$estados, "page"=>"soporte");
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('distribuidores',$vars,true)
 			));

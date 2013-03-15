@@ -20,7 +20,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 
-		$vars = array("page_title"=>"Inicio", "title"=>false);
+		$vars = array("page_title"=>"Inicio", "title"=>false, "page"=>"welcome");
 		$this->load->view('layout',array(
 				'contenido' => $this->load->view('home',$vars,true)
 			));

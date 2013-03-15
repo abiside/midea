@@ -28,19 +28,6 @@ class Pages extends CI_Controller {
 			));
 	}
 
-	public function faq(){
-		$vars = array("page_title"=>"Preguntas Frecuentes");
-		$this->load->view('layout',array(
-				'contenido' => $this->load->view('faq',$vars,true)
-			));
-	}
-
-	public function contact(){
-		$vars = array("page_title"=>"Contáctanos");
-		$this->load->view('layout',array(
-				'contenido' => $this->load->view('contact',$vars,true)
-			));
-	}
 }
 
 /* End of file welcome.php */

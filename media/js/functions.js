@@ -28,16 +28,23 @@ $(document).ready(function(){
 	//load_map();
 
 
-	//dejar al final del window load o document ready (si no falla)
+	//Efectos con scroll (slider stay)
+
+	var scroll_critical = 650; //for product
+	
+	$(window).scroll(function(){
+		if ($(document).scrollTop() > scroll_critical)
+		 	$("#productosintro, #slider").addClass("displaynone");
+		else $("#productosintro, #slider").removeClass("displaynone");
+    })
+
+    	//dejar al final del window load o document ready (si no falla)
 	$('#slider').layerSlider({
 		slideDelay: 4000,
 		autoStart: true,
 		slideDirection: 'top',
 		pauseOnHover: false
 	});
-	
-
-	//Efectos con scroll (slider stay)
 
 
 });

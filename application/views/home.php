@@ -21,6 +21,8 @@
 
 </div>
 
+<div style="width:100%; height: 550px;"></div>
+
 <div class="homeframe">
 	<div class="limited">
 		<div id="big-buttons">

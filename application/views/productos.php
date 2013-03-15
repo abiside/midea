@@ -3,10 +3,12 @@
 	<div id="productosimg"></div>
 </div>
 
+<div style="width:100%; height: 620px;"></div>
+
 <div class="producto productoimpar">
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle">Modelo Serie D 2012</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
@@ -40,7 +42,7 @@
 	<div class="productodivision"></div>
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle">Premier Champaña</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
@@ -74,7 +76,7 @@
 	<div class="productodivision"></div>
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle">Premier Plata</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
@@ -108,7 +110,7 @@
 	<div class="productodivision"></div>
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle">Inverter 2013</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
@@ -141,7 +143,7 @@
 	<div class="productodivision"></div>
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle">Modelo D 2013</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
@@ -174,7 +176,7 @@
 	<div class="productodivision"></div>
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle">Tango Portable</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
@@ -207,7 +209,8 @@
 	<div class="productodivision"></div>
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle"></div>
+			<div class="modelotitle">Tango Portable</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
@@ -240,7 +243,7 @@
 	<div class="productodivision"></div>
 	<div class="productocontent">
 		<div class="infoarea">
-			<div class="modelotitle">Modelo Serie D</div>
+			<div class="modelotitle">Deshumidificador</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,

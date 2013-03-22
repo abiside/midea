@@ -12,13 +12,19 @@
 		Con la firme idea y el valor de la seguridad, costo, y eficiencia, la División de Aire Acondicionado y Refrigeración se ha expandido a más de 150 países en el mundo mejorando el estilo de vida de más de 50 millones de familias. 
 
 	</div>
-	<div id="ceoarea">
-		<div id="ceoquote" class="didot">
-		“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
-			<div id="ceoname"> 
-				- <span> He Xiangjian </span>  CEO MIDEA
-			</div>
-		</div>
-		<div id="ceoimg"></div>
-	</div>
+
 </div>
+
+	<div id="teamarea">
+		<div id="ceosection">
+		<div id="ceoarea">
+			<div id="ceoquote" class="didot">
+			“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
+				<div id="ceoname"> 
+					- <span> He Xiangjian </span>  CEO MIDEA
+				</div>
+			</div>
+			<div id="ceoimg"></div>
+		</div>
+		</div>
+	</div>

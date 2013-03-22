@@ -210,18 +210,27 @@ textarea {margin-top: 20px;font-family:'helveticaneue', sans-serif; min-width:28
 .displaynone {display: none !important;}
 
 /* --- PAGINA NOSOTROS ---- */
-#imagearea {background: url(../img/lib/aboutuspage.jpg) center no-repeat; position: relative; width:100%; height: 730px; 
--webkit-background-size: 100%; -webkit-box-shadow: inset 0px -15px 9px -15px #333;
--moz-box-shadow: inset 0px -15px 9px -15px #333;
-box-shadow: inset 0px -15px 9px -15px #333;}
-#nosotroscontenido { width:880px; padding: 85px 0px; margin: 0 auto; color: black; font-size: 16px; text-align: center;}
+#imagearea {background: url(../img/lib/aboutuspage.jpg) bottom no-repeat; position: relative; width:100%; height: 500px; 
+background-size: cover; background-attachment: fixed; -webkit-box-shadow: inset 0px -15px 9px -15px #666;
+-moz-box-shadow: inset 0px -15px 9px -15px #666;
+box-shadow: inset 0px -15px 9px -15px #666;}
+#nosotroscontenido { width:880px; padding: 60px 0 85px; margin: 0 auto; color: black; font-size: 16px; text-align: center;}
 #nosotroscontenido h1 {color:#00aeef; font-size: 24px; margin-bottom: 45px;}
 #nosotroscontenido #descripcion {}
-#nosotroscontenido #ceoarea {height: 250px; margin-top: 115px;}
-#nosotroscontenido #ceoarea #ceoquote {font-size: 24px; color: #231f20; width:600px; float:left; padding-top: 70px;}
-#nosotroscontenido #ceoarea #ceoquote #ceoname {  font-family:'helveticaneue', sans-serif;font-size: 14px; text-align: right; color: #888; margin-top: 15px; font-style: normal;}
-#nosotroscontenido #ceoarea #ceoquote #ceoname span { font-family:'helveticaneuebold', sans-serif;}
-#nosotroscontenido #ceoimg {height: 245px; width: 245px; float: right; background: url(../img/lib/CEO.png);}
+#ceosection {background-color: white; width:100%; height:250px;
+-moz-box-shadow: 0px 0px 7px 0px #666;
+-webkit-box-shadow: 0px 0px 7px 0px #666;
+box-shadow: 0px 0px 7px 0px #666;}
+#ceosection #ceoarea { margin: 0 auto; width:880px;}
+#ceosection #ceoarea #ceoquote {font-size: 24px; color: #231f20; width:600px; float:left; padding-top: 70px;}
+#ceosection #ceoarea #ceoquote #ceoname {  font-family:'helveticaneue', sans-serif;font-size: 14px; text-align: right; color: #888; margin-top: 15px; font-style: normal;}
+#ceosection #ceoarea #ceoquote #ceoname span { font-family:'helveticaneuebold', sans-serif;}
+#ceoimg {height: 245px; width: 245px; float: right; background: url(../img/lib/CEO.png);}
+
+#teamarea {background: url(../img/lib/team.jpg) top; background-attachment: fixed; background-size: cover; width:100%; height: 450px; padding-top: 250px;
+-moz-box-shadow: inset 0px 5px 6px -5px #666;
+-webkit-box-shadow: inset 0px 5px 6px -5px #666;
+box-shadow: inset 0px 5px 6px -5px #666;}
 
 /* --- PAGINA PRODUCTOS --- */
 

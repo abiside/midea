@@ -155,8 +155,13 @@ box-shadow: 0px 0px 7px 0px #333;}
 -o-transition: all 0.2s linear;
 -ms-transition: all 0.2s linear;
 transition: all 0.2s linear;}
+<<<<<<< HEAD
 #big-buttons .button .icon{margin:45px 0 40px; height:255px; position: relative;overflow:hidden;}
 #big-buttons .button .icon img {position: absolute; left: 0;}
+=======
+#big-buttons .button .icon{margin:45px 0 40px; height:255px;position:relative;}
+#big-buttons .button .icon img {position: absolute; left:0;}
+>>>>>>> config
 #big-buttons .button .zoomico {
 -webkit-transition: all 0.2s linear;
 -moz-transition: all 0.2s linear;

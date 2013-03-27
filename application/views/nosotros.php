@@ -41,19 +41,18 @@
 
 </div>
 
-	<div class="greysection">
+<div class="greysection">
 		<div class="divider"></div>
 		<div class="greywrapper">
 			<div class="title">Dentro del Top 100 China Green Enterprises</div>
 			<div class="subtitle">por la revista "China Enterpreneur</div>
 		</div>
-	</div>
-	<div class="divider"></div>
+</div>
+<div class="divider"></div>
 
-	<div class="nosotroscontenido">
+<div class="nosotroscontenido">
 		<div class="square top" id="tl"></div>
 		<div class="square top right" id="tr"></div>
 		<div class="square " id="bl"></div>
 		<div class="square right" id="br"></div>
-	</div>
 </div>

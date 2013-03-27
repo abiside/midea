@@ -38,6 +38,7 @@
 	<?php endforeach ?>
 </div>
 
+
 <script>
 	$(".btn-auto").click(function(){
 		var aux = $(this).prop("id").split("-");

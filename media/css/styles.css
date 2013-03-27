@@ -209,28 +209,45 @@ textarea {margin-top: 20px;font-family:'helveticaneue', sans-serif; min-width:28
 /* SCROLL FIX */
 .displaynone {display: none !important;}
 
+.boxshadow {-moz-box-shadow: 0px 0px 7px 0px #666;
+-webkit-box-shadow: 0px 0px 7px 0px #666;
+box-shadow: 0px 0px 7px 0px #666;}
+
 /* --- PAGINA NOSOTROS ---- */
 #imagearea {background: url(../img/lib/aboutuspage.jpg) bottom no-repeat; position: relative; width:100%; height: 500px; 
 background-size: cover; background-attachment: fixed; -webkit-box-shadow: inset 0px -15px 9px -15px #666;
 -moz-box-shadow: inset 0px -15px 9px -15px #666;
 box-shadow: inset 0px -15px 9px -15px #666;}
-#nosotroscontenido { width:880px; padding: 60px 0 85px; margin: 0 auto; color: black; font-size: 16px; text-align: center;}
-#nosotroscontenido h1 {color:#00aeef; font-size: 24px; margin-bottom: 45px;}
-#nosotroscontenido #descripcion {}
-#ceosection {background-color: white; width:100%; height:250px;
--moz-box-shadow: 0px 0px 7px 0px #666;
--webkit-box-shadow: 0px 0px 7px 0px #666;
-box-shadow: 0px 0px 7px 0px #666;}
-#ceosection #ceoarea { margin: 0 auto; width:880px;}
+.nosotroscontenido { width:880px; padding: 60px 0 85px; margin: 0 auto; color: black; font-size: 16px; text-align: center;}
+.nosotroscontenido h1 {color:#00aeef; font-size: 24px; margin-bottom: 45px;}
+.nosotroscontenido #descripcion {}
+#ceosection {background-color: white; width:100%; height:250px;}
+#ceosection #ceoarea { margin: 0 auto; width:880px; height: 100%;}
 #ceosection #ceoarea #ceoquote {font-size: 24px; color: #231f20; width:600px; float:left; padding-top: 70px;}
 #ceosection #ceoarea #ceoquote #ceoname {  font-family:'helveticaneue', sans-serif;font-size: 14px; text-align: right; color: #888; margin-top: 15px; font-style: normal;}
 #ceosection #ceoarea #ceoquote #ceoname span { font-family:'helveticaneuebold', sans-serif;}
 #ceoimg {height: 245px; width: 245px; float: right; background: url(../img/lib/CEO.png);}
 
-#teamarea {background: url(../img/lib/team.jpg) top; background-attachment: fixed; background-size: cover; width:100%; height: 450px; padding-top: 250px;
--moz-box-shadow: inset 0px 5px 6px -5px #666;
--webkit-box-shadow: inset 0px 5px 6px -5px #666;
-box-shadow: inset 0px 5px 6px -5px #666;}
+.nosotroscontenido .columna {display:inline-block; width:25%; padding: 0px 30px;}
+.nosotroscontenido .columna .numero {color:#00acee; font-size:100px; font-family:'helveticaneuebold', sans-serif;}
+.nosotroscontenido .columna .numero span {font-size: 60px; display: inline-block; margin: -50px 10px; font-family:'helveticaneuebold', sans-serif;}
+.nosotroscontenido .columna .desc {font-size:14px; line-height: 20px;}
+
+.divider {background: url(../img/lib/divider.png); height:27px; width:882px; margin: 0 auto;}
+.greysection {background-color: #f0f0f0; padding: 0px 0px 70px 0px;}
+.greysection .greywrapper {width:880px; height:80px; margin: 0 auto;}
+.greysection .title { margin-top: 50px; font-size: 40px; font-family:'helveticaneuebold', sans-serif; color:#00acee; letter-spacing: -1px;}
+.greysection .subtitle {font-size:14px; margin-top: 15px; }
+
+.nosotroscontenido .square {display: inline-block; width: 382px;  height: 183px;}
+.nosotroscontenido .top {border-bottom: 1px solid #00acee; margin-bottom: -4px;}
+.nosotroscontenido .right { border-left: 1px solid #00acee; margin-left: -4px;}
+
+.nosotroscontenido #tl {background: url(../img/lib/tl.jpg);}
+.nosotroscontenido #tr {background: url(../img/lib/tr.png);}
+.nosotroscontenido #bl {background: url(../img/lib/bl.png);}
+.nosotroscontenido #br {background: url(../img/lib/br.png);}
+
 
 /* --- PAGINA PRODUCTOS --- */
 
@@ -262,4 +279,38 @@ margin-right: auto;}
 .productopar {background-color: #f0f0f0;}
 .productopar .productocontent .infoarea {float: right;}
 .productopar .productocontent .imgarea {float: left;}
+
+/* --- PAGINA SOPORTE --- */
+
+.serviciostext {font-size: 26px; color: #231f20; width:600px; padding-top: 75px;}
+#teamarea {background: url(../img/lib/team.jpg) top; background-attachment: fixed; background-size: cover; width:100%; height: 550px;
+-moz-box-shadow: inset 0px 5px 6px -5px #666;
+-webkit-box-shadow: inset 0px 5px 6px -5px #666;
+box-shadow: inset 0px 5px 6px -5px #666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

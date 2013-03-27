@@ -28,6 +28,13 @@
 
 </div>
 
+<div id="teamarea">
+    <div id="ceosection" class="boxshadow">
+    <div id="ceoarea" class="didot serviciostext">
+      “ Midea México cuenta con personal técnico capacitado a nivel nacional. Con una atención y calidez humana, nuestro personal ofrece mantenimiento, instalación, y reparación de sus equipos en garantía o con cargo.”
+    </div>
+    </div>
+  </div>
 
 <script type="text/javascript">
 

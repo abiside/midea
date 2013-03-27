@@ -42,7 +42,7 @@ class Partners extends CI_Controller {
 
 		$vars = array("page_title"=>"Inicio", "title"=>false, "partners"=>$partners, "markers"=>$markers, "aux"=>$markers_aux, "estados"=>$estados, "page"=>"soporte");
 		$this->load->view('layout',array(
-				'contenido' => $this->load->view('distribuidores',$vars,true)
+				'contenido' => $this->load->view('soporte',$vars,true)
 			));
 
 	}

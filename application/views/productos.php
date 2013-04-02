@@ -44,21 +44,14 @@
 		<div class="infoarea">
 			<div class="modelotitle">Premier Champaña</div>
 			<div class="modeloinfo">
-				Certificado bajo la Norma-023 que 
-				garantiza su alta eficiencia energética,
-				que se traduce en ahorro de energía. <br>
+				Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su edad. <br>
 	 
 				<ul>
-					<li>Programado encendido y apagado 24 hrs.</li>
-					<li>Función modo nocturno.</li>
-					<li>Reinicio automático.</li>
-					<li>Golden Fin.</li>
-					<li>Filtro Antibacterial de Iones de Planta</li>
-					<li>Pantalla VLED.</li>
-					<li>Fácil de limpiar.</li>
-					<li>Enfriamiento turbo.</li>
-					<li>Flujo de aire bidireccional.</li>
-				<li>Tecnología de Bio Filtro.</li>
+					<li>Rejilla con autoswing horizontal y vertical permite la distribución de una corriente de aire mas amplia al combinar un funcionamiento eficiente de rejillas.</li>
+					<li>Sensor infrarojo detecta movimiento, al estar ausente de la habitación por 30 mins el equipo automáticamente se apaga y se vuelve a encender cuando regresa.</li>
+					<li>Filtro de vitamina C.</li>
+					<li>Filtro antibacterial.</li>
+					<li>Filtro formaldehido.</li>
 				</ul>
 			</div>
 			<a href="#">Descarga PDF</a>
@@ -78,21 +71,14 @@
 		<div class="infoarea">
 			<div class="modelotitle">Premier Plata</div>
 			<div class="modeloinfo">
-				Certificado bajo la Norma-023 que 
-				garantiza su alta eficiencia energética,
-				que se traduce en ahorro de energía. <br>
+				Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su edad. <br>
 	 
 				<ul>
-					<li>Programado encendido y apagado 24 hrs.</li>
-					<li>Función modo nocturno.</li>
-					<li>Reinicio automático.</li>
-					<li>Golden Fin.</li>
-					<li>Filtro Antibacterial de Iones de Planta</li>
-					<li>Pantalla VLED.</li>
-					<li>Fácil de limpiar.</li>
-					<li>Enfriamiento turbo.</li>
-					<li>Flujo de aire bidireccional.</li>
-				<li>Tecnología de Bio Filtro.</li>
+					<li>Rejilla con autoswing horizontal y vertical permite la distribución de una corriente de aire mas amplia al combinar un funcionamiento eficiente de rejillas.</li>
+					<li>Sensor infrarojo detecta movimiento, al estar ausente de la habitación por 30 mins el equipo automáticamente se apaga y se vuelve a encender cuando regresa.</li>
+					<li>Filtro de vitamina C.</li>
+					<li>Filtro antibacterial.</li>
+					<li>Filtro formaldehido.</li>
 				</ul>
 			</div>
 			<a href="#">Descarga PDF</a>
@@ -117,16 +103,10 @@
 				que se traduce en ahorro de energía. <br>
 	 
 				<ul>
-					<li>Programado encendido y apagado 24 hrs.</li>
-					<li>Función modo nocturno.</li>
-					<li>Reinicio automático.</li>
-					<li>Golden Fin.</li>
-					<li>Filtro Antibacterial de Iones de Planta</li>
-					<li>Pantalla VLED.</li>
-					<li>Fácil de limpiar.</li>
-					<li>Enfriamiento turbo.</li>
-					<li>Flujo de aire bidireccional.</li>
-				<li>Tecnología de Bio Filtro.</li>
+					<li>Tecnología en ahorro de energía,  y cuidado de salud.</li>
+					<li>Ahorra hasta de un 60% de energía.</li>
+					<li>Su funcionamiento esta diseñado para el ahorro de energía, ayudando a tu economía.</li>
+					<li>Su filtro de vitamina C suaviza la piel y reduce el estrés.</li>
 				</ul>
 			</div>
 			<a href="#">Descarga PDF</a>
@@ -177,23 +157,17 @@
 	<div class="productocontent">
 		<div class="infoarea">
 			<div class="modelotitle"></div>
-			<div class="modelotitle">Tango Portable</div>
+			<div class="modelotitle">Tango Portatil</div>
 			<div class="modeloinfo">
 				Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
 				que se traduce en ahorro de energía. <br>
 	 
 				<ul>
-					<li>Programado encendido y apagado 24 hrs.</li>
-					<li>Función modo nocturno.</li>
-					<li>Reinicio automático.</li>
-					<li>Golden Fin.</li>
-					<li>Filtro Antibacterial de Iones de Planta</li>
-					<li>Pantalla VLED.</li>
-					<li>Fácil de limpiar.</li>
-					<li>Enfriamiento turbo.</li>
-					<li>Flujo de aire bidireccional.</li>
-				<li>Tecnología de Bio Filtro.</li>
+					<li>Diseño moderno.</li>
+					<li>Pantalla LED</li>
+					<li>Facil de transportar.</li>
+					<li>Auto evaporador.</li>
 				</ul>
 			</div>
 			<a href="#">Descarga PDF</a>

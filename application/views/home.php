@@ -10,12 +10,12 @@
 	</div>
 
 	<div class="ls-layer slidesbg" id="slide2" style="">
-		<div class="ls-s1 slide-text" style="width:100%;top:100px;">Mejorando tu estilo de vida</div>
+		<div class="ls-s1 slide-text" style="width:100%;top:100px;">La mejor calidad, el mayor ahorro</div>
 		<div class="ls-s2 slide-img" style="top:180px;"><img src="<?=base_url()?>media/img/slider/slider-img-2.png"></div>
 	</div>
 
 	<div class="ls-layer slidesbg" id="slide3" style="">
-		<div class="ls-s1 slide-text" style="width:100%;top:80px;">Mejorando tu estilo de vida</div>
+		<div class="ls-s1 slide-text" style="width:100%;top:80px;">Tecnología en ahorro de energía, y cuidado de salud</div>
 		<div class="ls-s2 slide-img" style="top:190px;"><img src="<?=base_url()?>media/img/slider/slider-img-1.png"></div>
 	</div>
 

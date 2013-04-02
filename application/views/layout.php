@@ -80,10 +80,7 @@
 
 						<span>Ventas Zona Centro y Sureste de México</span><br>
 						Lic. Luis Mendoza<br>
-						<a href="mailto:lmendoza@midea.com">lmendoza@midea.com</a><br><br>
-
-						Ing. Ernesto Arguelles<br>
-						<a href="ernesto_arguelles@midea.com">ernesto_arguelles@midea.com</a>
+						<a href="mailto:lmendoza@midea.com">lmendoza@midea.com</a>
 					</div>
 					<div id="rightarea">
 						<a target="_blank" href="https://maps.google.com/maps?q=Valle+Oriente,+San+Pedro+Garza+Garc%C3%ADa,+Mexico&hl=en&ie=UTF8&ll=25.656363,-100.345988&spn=0.018472,0.02856&sll=25.664389,-100.345688&sspn=0.009235,0.01428&oq=valle+oriente&hnear=Valle+Oriente,+San+Pedro+Garza+Garc%C3%ADa,+Nuevo+Le%C3%B3n,+Mexico&t=m&z=16"><div id="mapita"></div></a>

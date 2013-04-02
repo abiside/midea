@@ -1,5 +1,9 @@
 <div id="imagearea"></div>
 
+<div id="imagarea-holder"></div>
+
+<div style="background-color:white;">
+
 <div class="nosotroscontenido">
 	<h1>Nosotros</h1>
 	<div id="descripcion">
@@ -13,7 +17,7 @@
 
 	</div>
 
-	<div id="ceosection" style="margin:100px 0px;">
+	<div id="ceosection" style="margin:70px 0px 100px;  padding-top: 70px;">
 	<div id="ceoarea">
 		<div id="ceoquote" class="didot">
 		“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
@@ -55,4 +59,6 @@
 		<div class="square top right" id="tr"></div>
 		<div class="square " id="bl"></div>
 		<div class="square right" id="br"></div>
+</div>
+
 </div>

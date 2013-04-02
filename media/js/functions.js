@@ -34,8 +34,8 @@ $(document).ready(function(){
 	
 	$(window).scroll(function(){
 		if ($(document).scrollTop() > scroll_critical)
-		 	$("#productosintro, #slider").addClass("displaynone");
-		else $("#productosintro, #slider").removeClass("displaynone");
+		 	$("#productosintro, #slider, #imagearea").addClass("displaynone");
+		else $("#productosintro, #slider, #imagearea").removeClass("displaynone");
     })
 
 

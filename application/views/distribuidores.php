@@ -28,6 +28,14 @@
 
 </div>
 
+<div id="teamarea" class="teamdist">
+    <div id="ceosection" class="boxshadow">
+    <div id="ceoarea" class="didot serviciostext">
+      “Contamos con una red de distribuidores autorizados a nivel nacional que están listos para ofrecer el mejor servicio y calidad, busca el más cercano a tí.”
+    </div>
+    </div>
+  </div>
+
 
 <script type="text/javascript">
 

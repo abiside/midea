@@ -36,11 +36,11 @@
 	</div>
 	<div class="columna">
 		<div class="numero"><span>#</span>25</div>
-		<div class="desc">en China Enterprise 500 </br> por China Enterprise Association</div>
+		<div class="desc">en Top 50 Compañías Chinas</br> por Forbes Asia</div>
 	</div>
 	<div class="columna">
 		<div class="numero"><span>#</span>06</div>
-		<div class="desc">en China Enterprise 500 </br> por China Enterprise Association</div>
+		<div class="desc">en Marcas Más Valiosas de China del 2011 </br> por R&F Ranking Global</div>
 	</div>
 
 </div>
@@ -49,7 +49,7 @@
 		<div class="divider"></div>
 		<div class="greywrapper">
 			<div class="title">Dentro del Top 100 China Green Enterprises</div>
-			<div class="subtitle">por la revista "China Enterpreneur</div>
+			<div class="subtitle">por la revista "China Enterpreneur"</div>
 		</div>
 </div>
 <div class="divider"></div>

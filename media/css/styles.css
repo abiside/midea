@@ -229,7 +229,7 @@ box-shadow: inset 0px -15px 9px -15px #666;}
 #ceosection #ceoarea #ceoquote #ceoname span { font-family:'helveticaneuebold', sans-serif;}
 #ceoimg {height: 245px; width: 245px; float: right; background: url(../img/lib/CEO.png);}
 
-.nosotroscontenido .columna {display:inline-block; width:25%; padding: 0px 30px;}
+.nosotroscontenido .columna {display:inline-block; width:30%; padding: 0px 12px;}
 .nosotroscontenido .columna .numero {color:#00acee; font-size:100px; font-family:'helveticaneuebold', sans-serif;}
 .nosotroscontenido .columna .numero span {font-size: 60px; display: inline-block; margin: -50px 10px; font-family:'helveticaneuebold', sans-serif;}
 .nosotroscontenido .columna .desc {font-size:14px; line-height: 20px;}

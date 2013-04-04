@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # http://code.google.com/p/sequel-pro/
 #
-# Host: localhost (MySQL 5.1.44)
+# Host: 127.0.0.1 (MySQL 5.1.44)
 # Database: midea
-# Generation Time: 2013-03-27 00:49:22 +0000
+# Generation Time: 2013-04-04 00:31:21 +0000
 # ************************************************************
 
 
@@ -59,7 +59,14 @@ VALUES
 	(20,'Xalapa',30),
 	(21,'Poza Rica',30),
 	(22,'Chetumal',23),
-	(23,'Cozumel',23);
+	(23,'Cozumel',23),
+	(24,'Mazatlan',25),
+	(25,'Mochis',25),
+	(26,'Cd. Victoria',28),
+	(27,'Nuevo Laredo',28),
+	(28,'Reynosa',28),
+	(29,'Tampico',28),
+	(30,'Matamoros',28);
 
 /*!40000 ALTER TABLE `ciudades` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -190,7 +197,15 @@ VALUES
 	(41,'SERVICIO TECNICO PINELO','SAM3202','Av. kabah entre la lopez portillo y calle edzna  plaza kabah local 3','Col. Cancun Centro',77500,'01 (984) 859 4352','serviciosstp@hotmail.com',2,6,NULL,NULL,NULL,NULL),
 	(43,'E SERVICIOS','SAM3203','TUCAN No.9 ESQ. AV. INSURGENTES','COL. FIDEL VELAZQUEZ',77080,'01 (983) 8370703','sercsa@hotmail.com',2,22,NULL,NULL,NULL,NULL),
 	(42,'SERVICIO TECNICO PINELO','SAM3202','Calle 106 entre  40 y 45 Mz. 519 Lt. 15  ','Col. Colosio',77728,'01 (984) 859 4352','serviciosstp@hotmail.com',2,7,NULL,NULL,NULL,NULL),
-	(44,'ELECTRONICA Y POTENCIA','SAM3204','85 AV BIS LOTE 1 ESQ. 1 SUR BIS Y ADOLFO ROSADO SALAS','COL. RICARDO FLORES MAGON',77600,'01 (987) 8696213','adolfo.flores@electronicaypotencia.com.mx',2,23,NULL,NULL,NULL,NULL);
+	(44,'ELECTRONICA Y POTENCIA','SAM3204','85 AV BIS LOTE 1 ESQ. 1 SUR BIS Y ADOLFO ROSADO SALAS','COL. RICARDO FLORES MAGON',77600,'01 (987) 8696213','adolfo.flores@electronicaypotencia.com.mx',2,23,NULL,NULL,NULL,NULL),
+	(45,'CALIFORNIA REFRIGERACION','SAM0602','PASCUAL OROZCO #1613','FRACC. LOS PINOS',80128,'01 (667) 7610331','reysca04@gmail.com',2,3,NULL,NULL,NULL,NULL),
+	(46,'LEYLA ELECTROMECANICA','SAM0601','RECREO # 709','COL. LOMAS DEL VALLE',82140,'01 (669) 9832955','leylaelectromec@hotmail.com',2,24,NULL,NULL,NULL,NULL),
+	(47,'REFRIGERACION VALDES','SAM0603','QUERETARO # 2235 PTE.','COL. AYUNTAMIENTO 72',81236,'01 (668) 8130417','refrivaldez@1mm.megared.net.mx',2,25,NULL,NULL,NULL,NULL),
+	(48,'Aire Acondicionado De Chiapas','SAM2901','AV LAUREL NUM 288 ','FRACC EL VERGEL',29000,'01 (961) 6143369','lgtuxtla@yahoo.com.mx',2,15,NULL,NULL,NULL,NULL),
+	(49,'distribuidores de equipos industriales','SAM2902','3ª CALLE ORIENTE No 46-A','COL. CENTRO',30700,'01 (962) 6253178','d_e_i_1@hotmail.com',2,16,NULL,NULL,NULL,NULL),
+	(50,'Aire Acondicionado De Chiapas','SAM2903','AV. SUR #46','COL. CENTRO',30700,'01 (962) 1182183','lgtuxtla@yahoo.com.mx',2,16,NULL,NULL,NULL,NULL),
+	(51,'AIR-COM ','SAM1001','CALLE PASCUAL OROSCO NO. 807.','COL. ADOLFO LOPEZ MATEOS.',87020,'01 (834) 3140388','aircom_victoria@yahoo.com.mx',2,26,NULL,NULL,NULL,NULL),
+	(52,'TALLER SAN MARCOS','SAM1004','CALLE BRAVO No.3508','CENTRO',88000,'01 (867) 7126926','marcoscapetillo@hotmail.com',2,27,NULL,NULL,NULL,NULL);
 
 /*!40000 ALTER TABLE `partners` ENABLE KEYS */;
 UNLOCK TABLES;

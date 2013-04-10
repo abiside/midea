@@ -5,9 +5,9 @@
 
 <div id="slider">
 
-	<div class="ls-layer slidesbg" id="slide1" >
+	<!--<div class="ls-layer slidesbg" id="slide1" >
 		<div class="ls-s1 slide-text firefix" style="width:100%;top:280px;">Mejorando tu estilo de vida</div>
-	</div>
+	</div>-->
 
 	<div class="ls-layer slidesbg" id="slide2" style="">
 		<div class="ls-s1 slide-text" style="width:100%;top:100px;">La mejor calidad, el mayor ahorro</div>

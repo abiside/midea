@@ -2,10 +2,10 @@
 <div id="map-wrap">
   <div id="big-map"></div>
   <div id="map-data-box">
-    <div id="data-title"><?=count($partners)?> DISTRIBUIDORES</div>
+    <div id="data-title"><?=count($partners)?> <?=$this->lang->line("distributors_title")?></div>
     <div id="partners-wrap">
 
-      <div id="selecciona">SELECCIONA EL ESTADO DE TU PREFERENCIA</div>
+      <div id="selecciona">S<?=$this->lang->line("service_select")?></div>
 
       <?php foreach($partners as $p): ?>
 

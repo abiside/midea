@@ -72,6 +72,10 @@ $lang["about_mag"] = "by the magazine \"China Enterpreneur\"";
 // --- SUPPORT/Service ---
 $lang["service_title"] = "Technical Supports";
 $lang["service_select"] = "SELECT YOUR PREFERED STATE";
+$lang["service_description"] = "Midea Mexico, have trained technical people around the country. With the best attention and human warmth, our people offers maintenance, installation, and fixing of our products by guarantee or by charge.";
+
+// --- DISTRIBUTORS
+$lang["distributors_title"] = "Distributors";
 
 // ---  PRODUCTOS ---
 $lang["products_title"] = "Products";

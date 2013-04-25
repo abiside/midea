@@ -44,7 +44,7 @@
 						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist"><?=$this->lang->line("menu_distributors")?></a>
 						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta"><?=$this->lang->line("menu_contact")?></a>
 
-						<div id="selectedbar" class="<?php echo $sbar; ?>"></div>
+						<div id="selectedbar" class="<?php echo $sbar; ?> <?=$this->session->userdata("language")?>" ></div>
 
 					</div>
 

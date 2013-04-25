@@ -43,7 +43,7 @@ $lang["button2_title"] = "Products";
 $lang["button2_text"] = "We have products for all the purposes, take a look for the best for you.";
 
 $lang["button3_title"] = "Distributor";
-$lang["button3_text"] = "We have a big national network of certified distributors waiting to offer the best quelity and service to you, seek for the closer to you.";
+$lang["button3_text"] = "We have a big national network of certified distributors waiting to offer the best quality and service to you, seek for the closer to you.";
 
 // -- support
 $lang["support_title"] = "Technical Support";
@@ -55,7 +55,7 @@ $lang["support_button"] = "Go to directory";
 $lang["about_title"] = "About Us";
 $lang["about_description"] = "Midea was founded in Shunde, Guandong, the chinese capital of the appliances.
 		<br><br>
-		For more than 40 years, Midea have worked to improve the people quality lifestile, through the experience, new technologies, and the continous innovation.
+		For more than 40 years, Midea have worked to improve the people quality lifestyle, through the experience, new technologies, and the continous innovation.
 		<br><br>
 		Midea have been growth from a small company to become a world class company in the appliances sector, with more than 100,000 employees, working in a researching platform, production and comercialization. Today is the manufacturer world leader of air conditioning and have the ability to offer the best customer service around the world.
 		<br><br>
@@ -69,7 +69,13 @@ $lang["about_2011"] = "in The Most Valuable Brands in China 2011 </br> by R&F Ra
 $lang["about_100"] = "Among the Top 100 China Green Enterprises";
 $lang["about_mag"] = "by the magazine \"China Enterpreneur\"";
 
+// --- SUPPORT/Service ---
+$lang["service_title"] = "Technical Supports";
+$lang["service_select"] = "SELECT YOUR PREFERED STATE";
 
+// ---  PRODUCTOS ---
+$lang["products_title"] = "Products";
+$lang["products_PDF"] = "Download PDF";
 
 
 ?>

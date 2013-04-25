@@ -75,6 +75,18 @@ $lang["about_100"] = "Dentro del Top 100 China Green Enterprises";
 $lang["about_mag"] = "por la revista \"China Enterpreneur\"";
 
 
+// --- SUPPORT/Service ---
+$lang["service_title"] = "SOPORTES TÉCNICOS";
+$lang["service_select"] = "SELECCIONA EL ESTADO DE TU PREFERENCIA";
+
+
+// ---  PRODUCTOS ---
+$lang["products_title"] = "Productos";
+$lang["products_PDF"] = "Descarga PDF";
+
+
+
+
 
 
 

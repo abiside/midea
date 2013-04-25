@@ -63,7 +63,7 @@
 
 <div id="lider-frame">
 	<div class="limited" style="height:705px;">
-		<div id="icon-lider"></div>
+		<div id="icon-lider" class="<?=$this->session->userdata("language")?>"></div>
 			<div id="content-lider" class="didot">"<?=$this->lang->line("the_best")?>"</div>
 		<div id="img-lider"></div>
 	</div>

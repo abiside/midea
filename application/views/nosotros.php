@@ -48,10 +48,10 @@
 <div class="divider"></div>
 
 <div class="nosotroscontenido">
-		<div class="square top" id="tl"></div>
-		<div class="square top right" id="tr"></div>
-		<div class="square " id="bl"></div>
-		<div class="square right" id="br"></div>
+		<div class="square top <?=$this->session->userdata("language")?>" id="tl"></div>
+		<div class="square top right <?=$this->session->userdata("language")?>" id="tr"></div>
+		<div class="square <?=$this->session->userdata("language")?>" id="bl"></div>
+		<div class="square right <?=$this->session->userdata("language")?>" id="br"></div>
 </div>
 
 </div>

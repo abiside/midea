@@ -1,5 +1,5 @@
 <div id="productosintro">
-	<div id="introtitle">Productos</div>
+	<div id="introtitle"><?=$this->lang->line("products_title")?></div>
 	<div id="productosimg"></div>
 </div>
 
@@ -27,7 +27,7 @@
 				<li>Tecnología de Bio Filtro.</li>
 				</ul>
 			</div>
-			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank">Descarga PDF</a>
+			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -54,7 +54,7 @@
 					<li>Filtro formaldehido.</li>
 				</ul>
 			</div>
-			<a href="<?=base_url()?>media/pdf/Flyer_Midea_Premier.pdf" target="_blank">Descarga PDF</a>
+			<a href="<?=base_url()?>media/pdf/Flyer_Midea_Premier.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -81,7 +81,7 @@
 					<li>Filtro formaldehido.</li>
 				</ul>
 			</div>
-			<a href="<?=base_url()?>media/pdf/Flyer_Midea_Premier.pdf" target="_blank">Descarga PDF</a>
+			<a href="<?=base_url()?>media/pdf/Flyer_Midea_Premier.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -109,7 +109,7 @@
 					<li>Su filtro de vitamina C suaviza la piel y reduce el estrés.</li>
 				</ul>
 			</div>
-			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank">Descarga PDF</a>
+			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -142,7 +142,7 @@
 				<li>Tecnología de Bio Filtro.</li>
 				</ul>
 			</div>
-			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank">Descarga PDF</a>
+			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -170,7 +170,7 @@
 					<li>Auto evaporador.</li>
 				</ul>
 			</div>
-			<a href="<?=base_url()?>media/pdf/Flyer_Tango_out.pdf" target="_blank">Descarga PDF</a>
+			<a href="<?=base_url()?>media/pdf/Flyer_Tango_out.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -203,7 +203,7 @@
 				<li>Tecnología de Bio Filtro.</li>
 				</ul>
 			</div>
-			<a href="<?=base_url()?>media/pdf/Flyer_Tango_out.pdf" target="_blank">Descarga PDF</a>
+			<a href="<?=base_url()?>media/pdf/Flyer_Tango_out.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">

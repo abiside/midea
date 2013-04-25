@@ -3,8 +3,8 @@
 class Functions extends CI_Controller {
 
 	public function lang($lng, $url){
-		$this->session->set_userdata("lang",$lng);
 		$this->config->set_item('language', $lng);
+		$this->session->set_userdata("language",$lng);
 		redirect(base64_decode(urldecode($url)));
 	}
 

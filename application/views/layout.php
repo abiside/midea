@@ -30,8 +30,8 @@
 
 <body>
 
-	<?php $lang = "es"; if($this->session->userdata("lang") == "es"){ $lang = "en"; } ?>
-	<a href="<? echo base_url() ."functions/lang/$lang/" . urlencode(base64_encode(current_url())); ?>"><?=$this->session->userdata("lang")?></a>
+	<?php $lang = "es"; if($this->session->userdata("language") == "es"){ $lang = "en"; } ?>
+	<a href="<? echo base_url() ."functions/lang/$lang/" . urlencode(base64_encode(current_url())); ?>"><?=$this->session->userdata("language")?></a>
 
 	<div id="cuerpo">
 		<div id="header">

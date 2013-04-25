@@ -72,7 +72,7 @@ box-shadow: 0px 5px 6px -5px #000;}
 width: 100%; -moz-box-shadow: 0px 0px 7px 0px #000;
 -webkit-box-shadow: 0px 0px 7px 0px #000;
 box-shadow: 0px 0px 7px 0px #000;}
-#header #menu-sup #menu-content{width:960px;margin:auto;position:relative;}
+#header #menu-sup #menu-content{width:960px;height:100%;margin:auto;position:relative;}
 #header #menu-sup #menu-content #logo{width:210px;height:75px;position:absolute;background:url(../img/lib/logo.png) no-repeat center;margin:0;}
 
 #header #menu-sup #menu-content #opciones{position:absolute;right:0;height:80px;overflow-x:auto;}
@@ -93,6 +93,11 @@ box-shadow: 0px 0px 7px 0px #000;}
 #header #menu-sup #menu-content #opciones #selectedbar.ssopo {width:98px; margin-left: 253px;}
 #header #menu-sup #menu-content #opciones #selectedbar.sdist {width:83px; margin-left: 381px;}
 #header #menu-sup #menu-content #opciones #selectedbar.scont {width:57px; margin-left: 493px;}
+
+#header #menu-sup #menu-content #barra-lang {position: absolute; right: 0; margin: 16px; font-size:12px;}
+#header #menu-sup #menu-content #barra-lang a { color:#bbb; font-size:10px; }
+#header #menu-sup #menu-content #barra-lang a:hover {color:#666;}
+#header #menu-sup #menu-content #barra-lang .active {color: rgb(50, 181, 255);}
 
 #footer{height:550px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
 }

@@ -35,7 +35,6 @@
 
 	<div id="cuerpo">
 		<div id="header">
-			<div id="barra-lang"></div>
 			<div id="menu-sup">
 				<div id="menu-content">
 					<a href="<?=base_url()?>"><div id="logo"></div></a>
@@ -51,6 +50,12 @@
 						<div id="selectedbar" class="<?php echo $sbar; ?>"></div>
 
 					</div>
+
+					<div id="barra-lang">
+						<a href="#" class="active">ES </a> / <a href="#">EN</a>
+
+					</div>
+
 				</div>
 			</div>
 			

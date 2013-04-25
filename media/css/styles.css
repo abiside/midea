@@ -265,7 +265,7 @@ box-shadow: inset 0px -15px 9px -15px #666;}
 #ceosection #ceoarea #ceoquote {font-size: 24px; color: #231f20; width:600px; float:left; padding-top: 70px;}
 #ceosection #ceoarea #ceoquote #ceoname {  font-family:'helveticaneue', sans-serif;font-size: 14px; text-align: right; color: #888; margin-top: 15px; font-style: normal;}
 #ceosection #ceoarea #ceoquote #ceoname span { font-family:'helveticaneuebold', sans-serif;}
-#ceoimg {height: 245px; width: 245px; float: right; background: url(../img/lib/CEO.png);}
+#ceoimg {height: 242px; width: 245px; float: right; background: url(../img/lib/CEO.png);}
 
 .nosotroscontenido .columna {display:inline-block; width:30%; padding: 0px 12px;}
 .nosotroscontenido .columna .numero {color:#00acee; font-size:100px; font-family:'helveticaneuebold', sans-serif;}

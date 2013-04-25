@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
  <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-<title><?=$page_title?> - Midea México - Aires acondicionados</title>
+<title><?=$page_title?> - <?=$this->lang->line("web_title")?></title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />   
 <link rel="stylesheet" href="<?=base_url()?>media/css/styles.css" />
 <link rel="stylesheet" href="<?=base_url()?>media/css/distribuidores.css" />
@@ -29,6 +29,9 @@
  ?>
 
 <body>
+
+	<?php $lang = "es"; if($this->session->userdata("lang") == "es"){ $lang = "en"; } ?>
+	<a href="<? echo base_url() ."functions/lang/$lang/" . urlencode(base64_encode(current_url())); ?>"><?=$this->session->userdata("lang")?></a>
 
 	<div id="cuerpo">
 		<div id="header">

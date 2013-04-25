@@ -30,9 +30,6 @@
 
 <body>
 
-	<?php $lang = "es"; if($this->session->userdata("language") == "es"){ $lang = "en"; } ?>
-	<a href="<? echo base_url() ."functions/lang/$lang/" . urlencode(base64_encode(current_url())); ?>"><?=$this->session->userdata("language")?></a>
-
 	<div id="cuerpo">
 		<div id="header">
 			<div id="menu-sup">
@@ -40,19 +37,19 @@
 					<a href="<?=base_url()?>"><div id="logo"></div></a>
 					<div id="opciones">
 
-						<a href="<?=base_url()?>" class="opcion" id="home">Inicio</a>
-						<a href="<?=base_url()?>productos" class="opcion" id="prod">Productos</a>
-						<a href="<?=base_url()?>nosotros" class="opcion" id="noso">Nosotros</a>
-						<a href="<?=base_url()?>centros-de-servicio" class="opcion" id="sopo">Soporte técnico</a>
-						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist">Distribuidores</a>
-						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta">Contacto</a>
+						<a href="<?=base_url()?>" class="opcion" id="home"><?=$this->lang->line("menu_home")?></a>
+						<a href="<?=base_url()?>productos" class="opcion" id="prod"><?=$this->lang->line("menu_products")?></a>
+						<a href="<?=base_url()?>nosotros" class="opcion" id="noso"><?=$this->lang->line("menu_about")?></a>
+						<a href="<?=base_url()?>centros-de-servicio" class="opcion" id="sopo"><?=$this->lang->line("menu_support")?></a>
+						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist"><?=$this->lang->line("menu_distributors")?></a>
+						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta"><?=$this->lang->line("menu_contact")?></a>
 
 						<div id="selectedbar" class="<?php echo $sbar; ?>"></div>
 
 					</div>
 
 					<div id="barra-lang">
-						<a href="#" class="active">ES </a> / <a href="#">EN</a>
+						<a href="<? echo base_url() ."functions/lang/es/" . urlencode(base64_encode(current_url())); ?>" class="active">ES </a> / <a href="<? echo base_url() ."functions/lang/en/" . urlencode(base64_encode(current_url())); ?>">EN</a>
 
 					</div>
 
@@ -74,20 +71,16 @@
 				<div id="footerinfo" class="limited">
 					<div id="leftarea">
 						
-						<h1>Contáctanos</h1>
-						<span>Oficinas Corporativas</span><br>
-						Arq. Pedro Ramírez Vázquez #200 -4<br>
-						Col. Valle Oriente<br>
-						San Pedro Garza García, N.L.<br>
-						CP 66265<br>
-						Teléfono  (81) 81 00 6888<br><br>
+						<h1><?=$this->lang->line("contact_title")?></h1>
+						<span><?=$this->lang->line("contact_offices")?></span><br>
+						<?=$this->lang->line("contact_corp")?>
 
-						<span>Ventas Zona Norte de México</span><br>
-						Lic. Federico Fuentes<br>
+						<span><?=$this->lang->line("contact_north")?></span><br>
+						<?=$this->lang->line("contact_person_1")?><br>
 						<a href="mailto:federico@midea.com.cn">federico@midea.com.cn</a><br><br>
 
-						<span>Ventas Zona Centro y Sureste de México</span><br>
-						Lic. Luis Mendoza<br>
+						<span><?=$this->lang->line("contact_center")?></span><br>
+						<?=$this->lang->line("contact_person_2")?><br>
 						<a href="mailto:lmendoza@midea.com">lmendoza@midea.com</a>
 					</div>
 					<div id="rightarea">
@@ -110,10 +103,10 @@
 
 
 						<div id="bottombar"></div>
-						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>
+						<?=$this->lang->line("contact_followus")?>: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>
 					</div>
 				</div>
-				<div id="copyright">&copy;2013 Midea. Todos los Derechos Reservados. Powered by <a href="http://puntoindex.com/" target="_blank" style="font-size:8px;">PUNTOINDEX</a>. </div>
+				<div id="copyright">&copy;2013 Midea. <?=$this->lang->line("copyright")?>. Powered by <a href="http://puntoindex.com/" target="_blank" style="font-size:8px;">PUNTOINDEX</a>. </div>
 			</div>
 		</div>
 

@@ -5,22 +5,15 @@
 <div style="background-color:white;">
 
 <div class="nosotroscontenido">
-	<h1>Nosotros</h1>
+	<h1><?=$this->lang->line("about_title")?></h1>
 	<div id="descripcion">
-		Midea fue fundada en Shunde, Guandong, capital de los electrodomésticos en China.
-		<br><br>
-		Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, nuevas tecnologías, y la innovación continua.
-		<br><br>
-		Midea se ha desarrollado desde una empresa pequeña a ser una empresa de clase mundial en el área de línea blanca, con más de 100,000 empleados, que opera bajo una plataforma de investigación, manufactura y comercialización. Hoy en día es el líder fabricante mundial de aire acondicionado y tiene la capacidad de ofrecer el mejor servicio a clientes alrededor del mundo.
-		<br><br>
-		Con la firme idea y el valor de la seguridad, costo, y eficiencia, la División de Aire Acondicionado y Refrigeración se ha expandido a más de 150 países en el mundo mejorando el estilo de vida de más de 50 millones de familias. 
-
+		<?=$this->lang->line("about_description")?>
 	</div>
 
 	<div id="ceosection" style="margin:70px 0px 100px;  padding-top: 70px;">
 	<div id="ceoarea">
 		<div id="ceoquote" class="didot">
-		“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
+		“<?=$this->lang->line("about_ceo")?>”
 			<div id="ceoname"> 
 				- <span> Paul Fang </span>  CEO MIDEA
 			</div>
@@ -32,15 +25,15 @@
 	<h1>Ranking</h1>
 	<div class="columna">
 		<div class="numero"><span>#</span>70</div>
-		<div class="desc">en China Enterprise 500 </br> por China Enterprise Association</div>
+		<div class="desc"><?=$this->lang->line("about_500")?></div>
 	</div>
 	<div class="columna">
 		<div class="numero"><span>#</span>25</div>
-		<div class="desc">en Top 50 Compañías Chinas</br> por Forbes Asia</div>
+		<div class="desc"><?=$this->lang->line("about_50")?></div>
 	</div>
 	<div class="columna">
 		<div class="numero"><span>#</span>06</div>
-		<div class="desc">en Marcas Más Valiosas de China del 2011 </br> por R&F Ranking Global</div>
+		<div class="desc"><?=$this->lang->line("about_2011")?></div>
 	</div>
 
 </div>
@@ -48,8 +41,8 @@
 <div class="greysection">
 		<div class="divider"></div>
 		<div class="greywrapper">
-			<div class="title">Dentro del Top 100 China Green Enterprises</div>
-			<div class="subtitle">por la revista "China Enterpreneur"</div>
+			<div class="title"><?=$this->lang->line("about_100")?></div>
+			<div class="subtitle"><?=$this->lang->line("about_mag")?></div>
 		</div>
 </div>
 <div class="divider"></div>

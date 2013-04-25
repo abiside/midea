@@ -52,6 +52,8 @@ class CI_Controller {
 		
 		log_message('debug', "Controller Class Initialized");
 
+		$this->lang->load($this->session->userdata("language"), "general");
+
 	}
 
 	public static function &get_instance()

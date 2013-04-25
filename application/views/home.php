@@ -10,12 +10,12 @@
 	</div>-->
 
 	<div class="ls-layer slidesbg" id="slide2" style="">
-		<div class="ls-s1 slide-text" style="width:100%;top:100px;">La mejor calidad, el mayor ahorro</div>
+		<div class="ls-s1 slide-text" style="width:100%;top:100px;"><?=$this->lang->line("home_slider_1")?></div>
 		<div class="ls-s2 slide-img" style="top:180px;"><img src="<?=base_url()?>media/img/slider/slider-img-2.png"></div>
 	</div>
 
 	<div class="ls-layer slidesbg" id="slide3" style="">
-		<div class="ls-s1 slide-text" style="width:100%;top:80px;">Tecnología en ahorro de energía, y cuidado de salud</div>
+		<div class="ls-s1 slide-text" style="width:100%;top:80px;"><?=$this->lang->line("home_slider_2")?></div>
 		<div class="ls-s2 slide-img" style="top:190px;"><img src="<?=base_url()?>media/img/slider/slider-img-1.png"></div>
 	</div>
 
@@ -27,19 +27,19 @@
 	<div class="limited">
 		<div id="big-buttons">
 			<a href="nosotros" class="button">
-				<div class="title">Sobre Nosotros</div>
+				<div class="title"><?=$this->lang->line("button1_title")?></div>
 				<div class="icon"><img class="zoomico" src="<?=base_url()?>media/img/lib/icon-nosotros.png"><img src="<?=base_url()?>media/img/lib/ironcircle.png"></div>
-				<div class="text">Conoce más sobre la marca, su origen, y su logros.</div>
+				<div class="text"><?=$this->lang->line("button1_text")?></div>
 			</a>
 			<a href="productos" class="button">
-				<div class="title">Productos</div>
+				<div class="title"><?=$this->lang->line("button2_title")?></div>
 				<div class="icon"><img class="zoomico" src="<?=base_url()?>media/img/lib/icon-productos.png"><img src="<?=base_url()?>media/img/lib/ironcircle.png"></div>
-				<div class="text">Tenemos equipos para cubrir todas las necesidades, busca el mejor para ti.</div>
+				<div class="text"><?=$this->lang->line("button2_text")?></div>
 			</a>
 			<a href="distribuidores" class="button last">
-				<div class="title">Distribuidor</div>
+				<div class="title"><?=$this->lang->line("button3_title")?></div>
 				<div class="icon"><img class="zoomico" src="<?=base_url()?>media/img/lib/icon-distribuidor.png"><img src="<?=base_url()?>media/img/lib/ironcircle.png"></div>
-				<div class="text">Contamos con una red de distribuidores autorizados a nivel nacional que están listos para ofrecer el mejor servicio y calidad, busca el más cercano a tí.</div>
+				<div class="text"><?=$this->lang->line("button3_text")?></div>
 			</a>
 		</div>
 	</div>
@@ -50,10 +50,10 @@
 
 	<div class="limited">
 		<div class="twocolumns">
-			<div class="bigtext">Servicio Técnico</div>
-			<div>Conóce nuestro servicio  de soporte técnico para cualquier duda <br>o servicio que requiera tu equipo..</div>
-			<input value="Ver directorio" id="enviarbtn" type="submit" onclick="javascript:window.location = '<?=base_url()?>centros-de-servicio'">
-			<div>También puede comunicarte con nosotros a través de nuestra lada nacional.</div>
+			<div class="bigtext"><?=$this->lang->line("support_title")?></div>
+			<div><?=$this->lang->line("support_text1")?></div>
+			<input value="<?=$this->lang->line("support_button")?>" id="enviarbtn" type="submit" onclick="javascript:window.location = '<?=base_url()?>centros-de-servicio'">
+			<div><?=$this->lang->line("support_text2")?></div>
 			<div class="bigtext">01 800 000 0808</div>
 		</div>
 		
@@ -64,7 +64,7 @@
 <div id="lider-frame">
 	<div class="limited" style="height:705px;">
 		<div id="icon-lider"></div>
-			<div id="content-lider" class="didot">"La mejor calidad, el mayor ahorro."</div>
+			<div id="content-lider" class="didot">"<?=$this->lang->line("the_best")?>"</div>
 		<div id="img-lider"></div>
 	</div>
 </div>

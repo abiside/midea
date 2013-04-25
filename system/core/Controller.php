@@ -52,6 +52,7 @@ class CI_Controller {
 		
 		log_message('debug', "Controller Class Initialized");
 
+		if(!$this->session->userdata("language")){ $this->session->set_userdata("language","es");}
 		$this->lang->load($this->session->userdata("language"), "general");
 
 	}

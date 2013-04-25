@@ -22,7 +22,7 @@
 		<div id="ceoquote" class="didot">
 		“ Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.”
 			<div id="ceoname"> 
-				- <span> He Xiangjian </span>  CEO MIDEA
+				- <span> Paul Fang </span>  CEO MIDEA
 			</div>
 		</div>
 		<div id="ceoimg"></div>

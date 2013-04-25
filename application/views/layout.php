@@ -105,7 +105,7 @@
 						Siguenos en: <div id="social"><a href="#" id="twitter"></a><a href="#" id="facebook"></a></div>
 					</div>
 				</div>
-				<div id="copyright">&copy;2013 Midea. Todos los Derechos Reservados.</div>
+				<div id="copyright">&copy;2013 Midea. Todos los Derechos Reservados. Powered by <a href="http://puntoindex.com/" target="_blank" style="font-size:8px;">PUNTOINDEX</a>. </div>
 			</div>
 		</div>
 

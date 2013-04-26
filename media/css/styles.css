@@ -283,9 +283,13 @@ box-shadow: inset 0px -15px 9px -15px #666;}
 .nosotroscontenido .right { border-left: 1px solid #00acee; margin-left: -4px;}
 
 .nosotroscontenido #tl {background: url(../img/lib/tl.png);}
+.nosotroscontenido #tl.en {background: url(../img/lib/tlen.png);}
 .nosotroscontenido #tr {background: url(../img/lib/tr.png);}
+.nosotroscontenido #tr.en {background: url(../img/lib/tren.png);}
 .nosotroscontenido #bl {background: url(../img/lib/bl.png);}
+.nosotroscontenido #bl.en {background: url(../img/lib/blen.png);}
 .nosotroscontenido #br {background: url(../img/lib/br.png);}
+.nosotroscontenido #br.en {background: url(../img/lib/bren.png);}
 
 
 /* --- PAGINA PRODUCTOS --- */

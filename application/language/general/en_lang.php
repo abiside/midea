@@ -3,7 +3,7 @@
 /** --- GENERAL ---- **/
 $lang["web_title"] = "Midea México - Air Conditioning";
 $lang["copyright"] = "All Rights reserved";
-$lang["the_best"] = "The best quality, the most saving";
+$lang["the_best"] = "The best quality and great savings";
 
 // -- MENU---
 $lang["menu_home"] = "Home";
@@ -31,24 +31,24 @@ $lang["contact_followus"] = "Follow us";
 // ---  HOME --- 
 
 // - SLIDER
-$lang["home_slider_1"] = "The best quality, the most saving";
-$lang["home_slider_2"] = "Energy saving, and healt care technology";
+$lang["home_slider_1"] = "The best quality and great savings";
+$lang["home_slider_2"] = "Energy saving and health care technology";
 
 
 // --- big buttons
 $lang["button1_title"] = "About Us";
-$lang["button1_text"] = "Know more about Midea, its origins and achievments.";
+$lang["button1_text"] = "Know more about Midea, it's origins and achievements.";
 
 $lang["button2_title"] = "Products";
-$lang["button2_text"] = "We have products for all the purposes, take a look for the best for you.";
+$lang["button2_text"] = "We have products for all the purposes, take a look at the best for you.";
 
 $lang["button3_title"] = "Distributor";
-$lang["button3_text"] = "We have a big national network of certified distributors waiting to offer the best quality and service to you, seek for the closer to you.";
+$lang["button3_text"] = "We have a network of dealers nationwide that are ready to offer the best service and quality, find the closest to you.";
 
 // -- support
 $lang["support_title"] = "Technical Support";
-$lang["support_text1"] = "Learn a little bit about our technical support service in case of doubt or service about your product.";
-$lang["support_text2"] = "You can also communicate to us, trhough the national phone line for free";
+$lang["support_text1"] = "Learn about our technical support for any questions or services that your equipment may require.";
+$lang["support_text2"] = "You can also contact us through our customer service department";
 $lang["support_button"] = "Go to directory";
 
 // --- ABOUT US
@@ -57,11 +57,11 @@ $lang["about_description"] = "Midea was founded in Shunde, Guandong, the chinese
 		<br><br>
 		For more than 40 years, Midea have worked to improve the people quality lifestyle, through the experience, new technologies, and the continous innovation.
 		<br><br>
-		Midea have been growth from a small company to become a world class company in the appliances sector, with more than 100,000 employees, working in a researching platform, production and comercialization. Today is the manufacturer world leader of air conditioning and have the ability to offer the best customer service around the world.
+		Midea has grown from a small company to a world class company in the appliances sector, with more than a 100,000 employees, operating in a research manufactoring and marketing platform. Today is the world's leading manufacturer of air conditioning and has the ability to offer the best services to its clients all around the world.
 		<br><br>
-		With the solid idea and the value ot the security, price and efficiency, the air conditioning division and refrigeration have been expanded to mor than 150 countries around the world, improving the lifestylt of more then 50 millions of families.
+		With a firm idea in security value, cost and efficiency, the air conditioning and refrigeration division has expanded to over a 150 countries worldwide, improving the lifestyle of more than 50 million families.
 ";
-$lang["about_ceo"] = "For more than 40 years, Midea have worked to improve the people quality lifestile, through the experience, new technologies, and the continous innovation.";
+$lang["about_ceo"] = "For more than 40 years, Midea have worked to improve the quality of life of individuals, through experience, new technologies, and continous innovation.";
 
 $lang["about_500"] = "in China Enterprise 500 </br> by China Enterprise Association";
 $lang["about_50"] = "in the Top 50 Chinese Companies</br> by Forbes Asia";
@@ -72,7 +72,7 @@ $lang["about_mag"] = "by the magazine \"China Enterpreneur\"";
 // --- SUPPORT/Service ---
 $lang["service_title"] = "Technical Supports";
 $lang["service_select"] = "SELECT YOUR PREFERED STATE";
-$lang["service_description"] = "Midea Mexico, have trained technical people around the country. With the best attention and human warmth, our people offers maintenance, installation, and fixing of our products by guarantee or by charge.";
+$lang["service_description"] = "Midea Mexico, have qualified technical personnel nationwide. With quality attention and service, our staff provides maintenance, installation, and equipement repair under guarantee or with a fee.";
 
 // --- DISTRIBUTORS
 $lang["distributors_title"] = "Distributors";

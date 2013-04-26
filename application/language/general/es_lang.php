@@ -66,7 +66,7 @@ $lang["about_description"] = "Midea fue fundada en Shunde, Guandong, capital de 
 		<br><br>
 		Con la firme idea y el valor de la seguridad, costo, y eficiencia, la División de Aire Acondicionado y Refrigeración se ha expandido a más de 150 países en el mundo mejorando el estilo de vida de más de 50 millones de familias. 
 ";
-$lang["about_ceo"] = "Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, 	nuevas tecnologías y la innovación continua.";
+$lang["about_ceo"] = "Por más de 40 años, Midea ha colaborado para mejorar la calidad de vida de las personas, mediante la experiencia, nuevas tecnologías y la innovación continua.";
 
 $lang["about_500"] = "en China Enterprise 500 </br> por China Enterprise Association";
 $lang["about_50"] = "en Top 50 Compañías Chinas</br> por Forbes Asia";

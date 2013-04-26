@@ -31,13 +31,10 @@ $lang["contact_followus"] = "Follow us";
 // ---  HOME --- 
 
 // - SLIDER
-<<<<<<< HEAD
+
 $lang["home_slider_1"] = "The best quality and great savings";
 $lang["home_slider_2"] = "Energy saving and health care technology";
-=======
-$lang["home_slider_1"] = "The best quality, the most saving";
-$lang["home_slider_2"] = "Energy saving, and health care technology";
->>>>>>> No se
+
 
 
 // --- big buttons
@@ -48,11 +45,9 @@ $lang["button2_title"] = "Products";
 $lang["button2_text"] = "We have products for all the purposes, take a look at the best for you.";
 
 $lang["button3_title"] = "Distributor";
-<<<<<<< HEAD
+
 $lang["button3_text"] = "We have a network of dealers nationwide that are ready to offer the best service and quality, find the closest to you.";
-=======
-$lang["button3_text"] = "We have a large national network of certified distributors waiting to offer the best quality and service to you, seek for the closer to you.";
->>>>>>> No se
+
 
 // -- support
 $lang["support_title"] = "Technical Support";

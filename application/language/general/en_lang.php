@@ -1,7 +1,7 @@
 <?
 
 /** --- GENERAL ---- **/
-$lang["web_title"] = "Midea México - Conditioned Air";
+$lang["web_title"] = "Midea México - Air Conditioning";
 $lang["copyright"] = "All Rights reserved";
 $lang["the_best"] = "The best quality, the most saving";
 

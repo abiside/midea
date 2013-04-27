@@ -87,6 +87,8 @@ box-shadow: 0px 0px 7px 0px #000;}
     -ms-transition: all 0.1s linear;
     transition: all 0.1s linear;
     }
+
+/* MEDIDAS BAR ESPAÑOL */
 #header #menu-sup #menu-content #opciones #selectedbar.shome {width:31px; margin-left: 15px;}
 #header #menu-sup #menu-content #opciones #selectedbar.sprod {width:63px; margin-left: 76px;}
 #header #menu-sup #menu-content #opciones #selectedbar.snoso {width:56px; margin-left: 168px;}
@@ -94,20 +96,28 @@ box-shadow: 0px 0px 7px 0px #000;}
 #header #menu-sup #menu-content #opciones #selectedbar.sdist {width:83px; margin-left: 381px;}
 #header #menu-sup #menu-content #opciones #selectedbar.scont {width:57px; margin-left: 493px;}
 
+/* MEDIDAS BAR INGLES */
+#header #menu-sup #menu-content #opciones .en #selectedbar.shome {width:37px; margin-left: 15px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.sprod {width:55px; margin-left: 82px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.snoso {width:60px; margin-left: 166px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.ssopo {width:111px; margin-left: 256px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.sdist {width:70px; margin-left: 396px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.scont {width:68px; margin-left: 497px;}
+
 #header #menu-sup #menu-content #barra-lang {position: absolute; right: 0; margin: 16px; font-size:12px;}
 #header #menu-sup #menu-content #barra-lang a { color:#bbb; font-size:10px; }
 #header #menu-sup #menu-content #barra-lang a:hover {color:#666;}
 #header #menu-sup #menu-content #barra-lang .active {color: rgb(50, 181, 255);}
 
-#footer{height:550px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
+#footer{height:600px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
 }
 #footer a{font-weight:bold; color:#fff;}
 #footer a:hover{text-decoration: underline;}
 
-#footerplaceholder { height: 550px; position: relative; z-index: 1; }
+#footerplaceholder { height: 600px; position: relative; z-index: 1; }
 
 /* --- FOOTER --- */
-#footer #footerinfo {height:450px; border-bottom: 1px solid #00aeef; text-align: left; font-family:'helveticaneue', sans-serif;}
+#footer #footerinfo {height:450px; border-bottom: 1px solid #00aeef; text-align: left; font-family:'helveticaneue', sans-serif; padding-top: 40px;}
 /*#footer #footerinfo #map {background: url(../img/lib/footermap.jpg) no-repeat; position: absolute; margin: 100px 0px 0px 47px;}*/
 #footer #footerinfo #leftarea {color: white; font-size: 13px; float: left; width:47%; position: relative; z-index: 2; margin-left: 47px;}
 #footer #footerinfo #leftarea h1 {font-size: 50px; margin: 50px 0px 35px 0px; font-family: 'helveticaneuebold', sans-serif; }

@@ -44,12 +44,12 @@
 						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist"><?=$this->lang->line("menu_distributors")?></a>
 						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta"><?=$this->lang->line("menu_contact")?></a>
 
-						<div id="selectedbar" class="<?php echo $sbar; ?> <?=$this->session->userdata("language")?>" ></div>
+						<div class="<?=$this->session->userdata("language")?>"><div id="selectedbar" class="<?php echo $sbar; ?>" ></div></div>
 
 					</div>
 
 					<div id="barra-lang">
-						<a href="<? echo base_url() ."functions/lang/es/" . urlencode(base64_encode(uri_string())); ?>" class="active">ES </a> / <a href="<? echo base_url() ."functions/lang/en/" . urlencode(base64_encode(uri_string())); ?>">EN</a>
+						<a href="<?php echo base_url() ."functions/lang/es/" . urlencode(base64_encode(uri_string())); ?>" class="active">ES </a> / <a href="<?php echo base_url() ."functions/lang/en/" . urlencode(base64_encode(uri_string())); ?>">EN</a>
 
 					</div>
 

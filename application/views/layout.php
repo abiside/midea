@@ -49,7 +49,7 @@
 					</div>
 
 					<div id="barra-lang">
-						<a href="<?php echo base_url() ."functions/lang/es/" . urlencode(base64_encode(uri_string())); ?>" class="active">ES </a> / <a href="<?php echo base_url() ."functions/lang/en/" . urlencode(base64_encode(uri_string())); ?>">EN</a>
+						<a href="<?php echo base_url() ."functions/lang/es/" . urlencode(uri_string()); ?>" class="active">ES </a> / <a href="<?php echo base_url() ."functions/lang/en/" . urlencode(base64_encode(uri_string())); ?>">EN</a>
 
 					</div>
 

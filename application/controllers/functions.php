@@ -5,7 +5,7 @@ class Functions extends CI_Controller {
 	public function lang($lng, $url){
 		//$this->config->set_item('language', $lng);
 		$this->session->set_userdata("language",$lng);
-		redirect(base64_decode(urldecode($url)));
+		redirect(urldecode($url));
 	}
 
 	public $extensiones = array("jpg","JPG","jpeg","JPEG","png","PNG", "gif","bmp","BMP");

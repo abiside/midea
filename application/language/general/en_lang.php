@@ -52,7 +52,7 @@ $lang["button3_text"] = "We have a network of dealers nationwide that are ready 
 // -- support
 $lang["support_title"] = "Technical Support";
 $lang["support_text1"] = "Learn about our technical support for any questions or services that your equipment may require.";
-$lang["support_text2"] = "You can also contact us through our customer service department";
+$lang["support_text2"] = "You can also contact us through our customer service department:";
 $lang["support_button"] = "Go to directory";
 
 // --- ABOUT US
@@ -77,9 +77,11 @@ $lang["about_mag"] = "by the magazine \"China Enterpreneur\"";
 $lang["service_title"] = "Technical Supports";
 $lang["service_select"] = "SELECT YOUR PREFERED STATE";
 $lang["service_description"] = "Midea Mexico, have qualified technical personnel nationwide. With quality attention and service, our staff provides maintenance, installation, and equipement repair under guarantee or with a fee.";
+$lang["phone_sop"] = "Contact us through our customer service department:";
 
 // --- DISTRIBUTORS
 $lang["distributors_title"] = "Distributors";
+
 
 // ---  PRODUCTOS ---
 $lang["products_title"] = "Products";

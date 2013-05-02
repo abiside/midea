@@ -79,10 +79,10 @@ $lang["about_mag"] = "por la revista \"China Enterpreneur\"";
 $lang["service_title"] = "SOPORTES TÉCNICOS";
 $lang["service_select"] = "SELECCIONA EL ESTADO DE TU PREFERENCIA";
 $lang["service_description"] = "Midea México cuenta con personal técnico capacitado a nivel nacional. Con una atención y calidez humana, nuestro personal ofrece mantenimiento, instalación, y reparación de sus equipos en garantía o con cargo.";
+$lang["phone_sop"] = "Comunícate con nosotros a través de nuestra lada nacional:";
 
 // --- DISTRIBUTORS
 $lang["distributors_title"] = "Distribuidores";
-
 
 
 // ---  PRODUCTOS ---

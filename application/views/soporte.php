@@ -29,9 +29,11 @@
 </div>
 
 <div id="teamarea" class="teamsoporte">
-    <div id="ceosection" class="boxshadow">
-    <div id="ceoarea" class="didot serviciostext">
-      “<?=$this->lang->line("service_description")?>”
+    <div id="ceosection" class="boxshadow" style="height:350px;">
+    <div id="ceoarea" class="serviciostext">
+      <div class="didot">“<?=$this->lang->line("service_description")?>”</div>
+      <div id="soportecontact" ><?=$this->lang->line("phone_sop")?></div>
+      <div id="soportephone">01 800 000 0808</div>
     </div>
     </div>
   </div>

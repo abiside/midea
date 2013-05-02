@@ -86,4 +86,104 @@ $lang["products_title"] = "Products";
 $lang["products_PDF"] = "Download PDF";
 
 
+// --- specific products information ---
+$lang["d2012_title"] = "D Series Model 2012";
+$lang["d2012_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings. <br>
+	 
+				<ul>
+					<li>Scheduled on-off 24 hrs.</li>
+					<li>Night Mode function.</li>
+					<li>Automatic restart.</li>
+					<li>Golden Fin.</li>
+					<li>Ion Antibacterial Filter Plant</li>
+					<li>VLED Display.</li>
+					<li>Easy to clean.</li>
+					<li>Cooling turbo.</li>
+					<li>Bi-directional airflow.</li>
+				<li>Filter Bio Technology.</li>
+				</ul>";
+
+$lang["champ_title"] = "Premier Champagne";
+$lang["champ_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your age. <br>
+	 
+				<ul>
+					<li>Horizontal and vertical autoswing grid that allows the distribution of an air stream by combining an efficient wider grid operation.</li>
+					<li> Infrared sensor motion detector, that allows a person to be absent from the room for 30 mins and the computer automatically turns off and turns back on when the person returns.</li>
+					<li>Vitamin C filter.</li>
+					<li>Filtro antibacterial.</li>
+					<li>Filtro formaldehido.</li>
+				</ul>";
+
+$lang["plata_title"] = "Premier Silver";
+$lang["plata_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your age. <br>
+	 
+				<ul>
+					<li>Horizontal and vertical autoswing grid that allows the distribution of an air stream by combining an efficient wider grid operation.</li>
+					<li> Infrared sensor motion detector, that allows a person to be absent from the room for 30 mins and the computer automatically turns off and turns back on when the person returns.</li>
+					<li>Vitamin C filter.</li>
+					<li>Filtro antibacterial.</li>
+					<li>Filtro formaldehido.</li>
+				</ul>";
+
+
+$lang["i2013_title"] = "Inverter 2013";
+$lang["i2013_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings. <br>
+	 
+				<ul>
+					<li>Energy-saving and health care technology.</li>
+					<li>Save up to 60%  in energy.</li>
+					<li>Operation that is designed to save energy and help your economy.</li>
+					<li>The Vitamin C filter softens the skin and reduces stress.</li>
+				</ul>";
+
+
+$lang["d2013_title"] = "D Series Model 2013";
+$lang["d2013_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings.
+
+ <br>
+	 
+				<ul>
+					<li>Scheduled on-off 24 hrs.</li>
+					<li>Night Mode function.</li>
+					<li>Automatic restart.</li>
+					<li>Golden Fin.</li>
+					<li>Ion Antibacterial Filter Plant</li>
+					<li>VLED Display.</li>
+					<li>Easy to clean.</li>
+					<li>Cooling turbo.</li>
+					<li>Bi-directional airflow.</li>
+				<li>Filter Bio Technology.</li>
+				</ul>";
+
+
+$lang["tango_title"] = "Tango Portable";
+$lang["tango_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings. <br>
+	 
+				<ul>
+					<li>Modern design.</li>
+					<li>LED display.</li>
+					<li>Easy to transport.</li>
+					<li>Auto-evaporator.</li>
+				</ul>";
+
+
+$lang["des_title"] = "Dehumidifier";
+$lang["des_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings.
+
+<br>
+	 
+				<ul>
+					<li>Scheduled on-off 24 hrs.</li>
+					<li>Night Mode function.</li>
+					<li>Automatic restart.</li>
+					<li>Golden Fin.</li>
+					<li>Ion Antibacterial Filter Plant</li>
+					<li>VLED Display.</li>
+					<li>Easy to clean.</li>
+					<li>Cooling turbo.</li>
+					<li>Bi-directional airflow.</li>
+				<li>Filter Bio Technology.</li>
+				</ul>";
+
+
 ?>

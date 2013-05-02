@@ -90,6 +90,109 @@ $lang["products_title"] = "Productos";
 $lang["products_PDF"] = "Descarga PDF";
 
 
+// --- specific products information ---
+$lang["d2012_title"] = "Modelo Serie D 2012";
+$lang["d2012_description"] = "Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>";
+
+$lang["champ_title"] = "Premier Champaña";
+$lang["champ_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su edad. <br>
+	 
+				<ul>
+					<li>Rejilla con autoswing horizontal y vertical permite la distribución de una corriente de aire mas amplia al combinar un funcionamiento eficiente de rejillas.</li>
+					<li>Sensor infrarojo detecta movimiento, al estar ausente de la habitación por 30 mins el equipo automáticamente se apaga y se vuelve a encender cuando regresa.</li>
+					<li>Filtro de vitamina C.</li>
+					<li>Filtro antibacterial.</li>
+					<li>Filtro formaldehido.</li>
+				</ul>";
+
+$lang["plata_title"] = "Premier Plata";
+$lang["plata_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su edad. <br>
+	 
+				<ul>
+					<li>Rejilla con autoswing horizontal y vertical permite la distribución de una corriente de aire mas amplia al combinar un funcionamiento eficiente de rejillas.</li>
+					<li>Sensor infrarojo detecta movimiento, al estar ausente de la habitación por 30 mins el equipo automáticamente se apaga y se vuelve a encender cuando regresa.</li>
+					<li>Filtro de vitamina C.</li>
+					<li>Filtro antibacterial.</li>
+					<li>Filtro formaldehido.</li>
+				</ul>";
+
+$lang["i2013_title"] = "Inverter 2013";
+$lang["i2013_description"] = "Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Tecnología en ahorro de energía,  y cuidado de salud.</li>
+					<li>Ahorra hasta de un 60% de energía.</li>
+					<li>Su funcionamiento esta diseñado para el ahorro de energía, ayudando a tu economía.</li>
+					<li>Su filtro de vitamina C suaviza la piel y reduce el estrés.</li>
+				</ul>";
+
+$lang["d2013_title"] = "Modelo D 2013";
+$lang["d2013_description"] = "Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>";
+
+
+$lang["tango_title"] = "Tango Portatil";
+$lang["tango_description"] = "Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Diseño moderno.</li>
+					<li>Pantalla LED</li>
+					<li>Facil de transportar.</li>
+					<li>Auto evaporador.</li>
+				</ul>";
+
+
+$lang["des_title"] = "Deshumidificador";
+$lang["des_description"] = "Certificado bajo la Norma-023 que 
+				garantiza su alta eficiencia energética,
+				que se traduce en ahorro de energía. <br>
+	 
+				<ul>
+					<li>Programado encendido y apagado 24 hrs.</li>
+					<li>Función modo nocturno.</li>
+					<li>Reinicio automático.</li>
+					<li>Golden Fin.</li>
+					<li>Filtro Antibacterial de Iones de Planta</li>
+					<li>Pantalla VLED.</li>
+					<li>Fácil de limpiar.</li>
+					<li>Enfriamiento turbo.</li>
+					<li>Flujo de aire bidireccional.</li>
+				<li>Tecnología de Bio Filtro.</li>
+				</ul>";
+
 
 
 

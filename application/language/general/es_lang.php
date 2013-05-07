@@ -110,7 +110,7 @@ $lang["d2012_description"] = "Certificado bajo la Norma-023 que
 				</ul>";
 
 $lang["champ_title"] = "Premier Champaña";
-$lang["champ_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su edad. <br>
+$lang["champ_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su hogar. <br>
 	 
 				<ul>
 					<li>Rejilla con autoswing horizontal y vertical permite la distribución de una corriente de aire mas amplia al combinar un funcionamiento eficiente de rejillas.</li>
@@ -121,7 +121,7 @@ $lang["champ_description"] = "Diseño compacto y acabado moderno metálico que c
 				</ul>";
 
 $lang["plata_title"] = "Premier Plata";
-$lang["plata_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su edad. <br>
+$lang["plata_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su hogar. <br>
 	 
 				<ul>
 					<li>Rejilla con autoswing horizontal y vertical permite la distribución de una corriente de aire mas amplia al combinar un funcionamiento eficiente de rejillas.</li>

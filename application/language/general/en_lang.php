@@ -106,7 +106,7 @@ $lang["d2012_description"] = "Certificate under Norm-023 ensures high energy eff
 				</ul>";
 
 $lang["champ_title"] = "Premier Champagne";
-$lang["champ_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your age. <br>
+$lang["champ_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your home. <br>
 	 
 				<ul>
 					<li>Horizontal and vertical autoswing grid that allows the distribution of an air stream by combining an efficient wider grid operation.</li>
@@ -117,7 +117,7 @@ $lang["champ_description"] = "Compact and modern metallic finish make this equip
 				</ul>";
 
 $lang["plata_title"] = "Premier Silver";
-$lang["plata_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your age. <br>
+$lang["plata_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your home. <br>
 	 
 				<ul>
 					<li>Horizontal and vertical autoswing grid that allows the distribution of an air stream by combining an efficient wider grid operation.</li>

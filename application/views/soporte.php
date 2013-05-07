@@ -28,7 +28,7 @@
 
 </div>
 
-<div id="teamarea" class="teamsoporte">
+<div id="teamarea" class="teamsoporte" style="height:670px">
     <div id="ceosection" class="boxshadow" style="height:365px;">
     <div id="ceoarea" class="serviciostext">
       <div class="didot">“<?=$this->lang->line("service_description")?>”</div>

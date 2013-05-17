@@ -14,6 +14,21 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKP009lkOzAgIiLqM0mc6yVtIuEZNgW68&sensor=false">
 </script>
 
+<!-- GOOGLE ANALTICS -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-40671682-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 <!-- HELVETICA FONT -->
 
 </head> 
@@ -49,7 +64,7 @@
 					</div>
 
 					<div id="barra-lang">
-						<a href="<?php echo base_url() ."functions/lang/es/" . uri_string(); ?>" class="active">ES </a> / <a href="<?php echo base_url() ."functions/lang/en/" . urlencode(base64_encode(uri_string())); ?>">EN</a>
+						<a href="<?php echo base_url() ."functions/lang/es/" . uri_string(); ?>" class="active">ES </a> / <a href="<?php echo base_url() ."functions/lang/en/" . uri_string(); ?>">EN</a>
 
 					</div>
 

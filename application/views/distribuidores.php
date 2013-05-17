@@ -5,7 +5,7 @@
     <div id="data-title"><?=count($partners)?> <?=$this->lang->line("distributors_title")?></div>
     <div id="partners-wrap">
 
-      <div id="selecciona">S<?=$this->lang->line("service_select")?></div>
+      <div id="selecciona"><?=$this->lang->line("service_select")?></div>
 
       <?php foreach($partners as $p): ?>
 

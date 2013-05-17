@@ -57,6 +57,7 @@
 						<a href="<?=base_url()?>nosotros" class="opcion" id="noso"><?=$this->lang->line("menu_about")?></a>
 						<a href="<?=base_url()?>centros-de-servicio" class="opcion" id="sopo"><?=$this->lang->line("menu_support")?></a>
 						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist"><?=$this->lang->line("menu_distributors")?></a>
+						<a href="<?=base_url()?>showrooms" class="opcion" id="show"><?=$this->lang->line("menu_show")?></a>
 						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta"><?=$this->lang->line("menu_contact")?></a>
 
 						<div class="<?=$this->session->userdata("language")?>"><div id="selectedbar" class="<?php echo $sbar; ?>" ></div></div>

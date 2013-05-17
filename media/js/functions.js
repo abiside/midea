@@ -19,6 +19,9 @@ $(document).ready(function(){
 	$('#dist').mouseenter(function() {
 	  $('#selectedbar').removeClass().addClass("sdist");
 	});
+	$('#show').mouseenter(function() {
+	  $('#selectedbar').removeClass().addClass("sshow");
+	});
 	$('#conta').mouseenter(function() {
 	  $('#selectedbar').removeClass().addClass("scont");
 	});

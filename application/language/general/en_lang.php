@@ -11,6 +11,7 @@ $lang["menu_products"] = "Products";
 $lang["menu_about"] = "About Us";
 $lang["menu_support"] = "Technical Support";
 $lang["menu_distributors"] = "Distributors";
+$lang["menu_show"] = "Showrooms";
 $lang["menu_contact"] = "Contact Us";
 
 // --- CONTACT
@@ -86,6 +87,18 @@ $lang["distributors_title"] = "Distributors";
 // ---  PRODUCTOS ---
 $lang["products_title"] = "Products";
 $lang["products_PDF"] = "Download PDF";
+
+// --- SHOWROOMS
+$lang["showrooms_title"] = "Showrooms";
+$lang["showrooms_quote"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+$lang["showrooms_title1"] = "Lorem ipsum";
+$lang["showrooms_content1"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+$lang["showrooms_title2"] = "Lorem ipsum";
+$lang["showrooms_content2"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+$lang["showrooms_title2"] = "Lorem ipsum";
+$lang["showrooms_content2"] = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
+
 
 
 // --- specific products information ---

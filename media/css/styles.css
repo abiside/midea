@@ -94,7 +94,8 @@ box-shadow: 0px 0px 7px 0px #000;}
 #header #menu-sup #menu-content #opciones #selectedbar.snoso {width:56px; margin-left: 168px;}
 #header #menu-sup #menu-content #opciones #selectedbar.ssopo {width:98px; margin-left: 253px;}
 #header #menu-sup #menu-content #opciones #selectedbar.sdist {width:83px; margin-left: 381px;}
-#header #menu-sup #menu-content #opciones #selectedbar.scont {width:57px; margin-left: 493px;}
+#header #menu-sup #menu-content #opciones #selectedbar.sshow {width:74px; margin-left: 496px;}
+#header #menu-sup #menu-content #opciones #selectedbar.scont {width:57px; margin-left: 601px;}
 
 /* MEDIDAS BAR INGLES */
 #header #menu-sup #menu-content #opciones .en #selectedbar.shome {width:37px; margin-left: 15px;}
@@ -102,7 +103,8 @@ box-shadow: 0px 0px 7px 0px #000;}
 #header #menu-sup #menu-content #opciones .en #selectedbar.snoso {width:60px; margin-left: 166px;}
 #header #menu-sup #menu-content #opciones .en #selectedbar.ssopo {width:111px; margin-left: 256px;}
 #header #menu-sup #menu-content #opciones .en #selectedbar.sdist {width:70px; margin-left: 396px;}
-#header #menu-sup #menu-content #opciones .en #selectedbar.scont {width:68px; margin-left: 497px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.sshow {width:74px; margin-left: 496px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.scont {width:69px; margin-left: 601px;}
 
 #header #menu-sup #menu-content #barra-lang {position: absolute; right: 0; margin: 16px; font-size:12px;}
 #header #menu-sup #menu-content #barra-lang a { color:#bbb; font-size:10px; }
@@ -346,10 +348,27 @@ box-shadow: inset 0px 5px 6px -5px #666;}
 #soportecontact {margin-top:57px; font-size:16px; color: rgb(110,110,110); letter-spacing: 1px;font-family: 'helveticaneue', sans-serif;}
 #soportephone {font-size: 55px; margin-top: 7px; color: #00aeef; font-family: 'helveticaneuebold', sans-serif;}
 
+/* --- PAGINA SHOWROOMS --- */
 
+#showroomquote {background-color: white; height:195px; width:100%; font-size:30px; padding-top: 120px;}
+.srwrapper {margin: 0 auto; width:960px; height: 100%;}
 
+#showroombig {width:100%; height:550px; background: url(../img/lib/srbig.jpg) center; background-size: cover; }
 
+.showroomarea {background-color: #ececec; height:550px;}
+.showroomdivision { background: url(../img/lib/divider.png); height:27px; width:882px; position: absolute;left: 0;
+right: 0; margin-left: auto; margin-right: auto;}
+.showroomtitle {color: #139ceb; font-size:24px;}
+.showroomsubtitle {color: black; font-size:24px; margin-top: 35px;}
+.showroomleft {width:340px; text-align: left; float:left; margin-top: 160px;}
+.showroomright {float:right; margin-top: 85px; background: url(../img/lib/showroombg.png); width:487px; height:374px;}
+#sr1, #sr2, #sr3 {height: 333px; width: 446px; margin: 20px;}
+#sr1 {background: url(../img/lib/sr1.jpg);}
+#sr2 {background: url(../img/lib/sr2.jpg);}
+#sr3 {background: url(../img/lib/sr3.jpg);}
 
+.inverted .showroomright {float:left;}
+.inverted .showroomleft {float:right;}
 
 
 

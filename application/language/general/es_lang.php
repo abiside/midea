@@ -104,7 +104,7 @@ $lang["showrooms_content3"] = "Lorem ipsum dolor sit amet, consectetur adipisici
 
 
 // --- specific products information ---
-$lang["d2012_title"] = "Modelo Serie D 2012";
+$lang["d2012_title"] = "Elegance 2012";
 $lang["d2012_description"] = "Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
 				que se traduce en ahorro de energía. <br>
@@ -122,7 +122,7 @@ $lang["d2012_description"] = "Certificado bajo la Norma-023 que
 				<li>Tecnología de Bio Filtro.</li>
 				</ul>";
 
-$lang["champ_title"] = "Premier Champaña";
+$lang["champ_title"] = "Inverter Premier Champaña";
 $lang["champ_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su hogar. <br>
 	 
 				<ul>
@@ -133,7 +133,7 @@ $lang["champ_description"] = "Diseño compacto y acabado moderno metálico que c
 					<li>Filtro formaldehido.</li>
 				</ul>";
 
-$lang["plata_title"] = "Premier Plata";
+$lang["plata_title"] = "Inverter Premier Plata";
 $lang["plata_description"] = "Diseño compacto y acabado moderno metálico que convierten en este equipo en un elemento decorativo para su hogar. <br>
 	 
 				<ul>
@@ -144,7 +144,7 @@ $lang["plata_description"] = "Diseño compacto y acabado moderno metálico que c
 					<li>Filtro formaldehido.</li>
 				</ul>";
 
-$lang["i2013_title"] = "Inverter 2013";
+$lang["i2013_title"] = "Inverter Platinum";
 $lang["i2013_description"] = "Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
 				que se traduce en ahorro de energía. <br>
@@ -156,7 +156,7 @@ $lang["i2013_description"] = "Certificado bajo la Norma-023 que
 					<li>Su filtro de vitamina C suaviza la piel y reduce el estrés.</li>
 				</ul>";
 
-$lang["d2013_title"] = "Modelo D 2013";
+$lang["d2013_title"] = "Elegance 2013";
 $lang["d2013_description"] = "Certificado bajo la Norma-023 que 
 				garantiza su alta eficiencia energética,
 				que se traduce en ahorro de energía. <br>

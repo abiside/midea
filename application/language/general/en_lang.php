@@ -102,7 +102,7 @@ $lang["showrooms_content2"] = "Lorem ipsum dolor sit amet, consectetur adipisici
 
 
 // --- specific products information ---
-$lang["d2012_title"] = "D Series Model 2012";
+$lang["d2012_title"] = "Elegance 2012";
 $lang["d2012_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings. <br>
 	 
 				<ul>
@@ -118,7 +118,7 @@ $lang["d2012_description"] = "Certificate under Norm-023 ensures high energy eff
 				<li>Filter Bio Technology.</li>
 				</ul>";
 
-$lang["champ_title"] = "Premier Champagne";
+$lang["champ_title"] = "Inverter Premier Champagne";
 $lang["champ_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your home. <br>
 	 
 				<ul>
@@ -129,7 +129,7 @@ $lang["champ_description"] = "Compact and modern metallic finish make this equip
 					<li>Filtro formaldehido.</li>
 				</ul>";
 
-$lang["plata_title"] = "Premier Silver";
+$lang["plata_title"] = "Inverter Premier Silver";
 $lang["plata_description"] = "Compact and modern metallic finish make this equipment into a decorative element for your home. <br>
 	 
 				<ul>
@@ -141,7 +141,7 @@ $lang["plata_description"] = "Compact and modern metallic finish make this equip
 				</ul>";
 
 
-$lang["i2013_title"] = "Inverter 2013";
+$lang["i2013_title"] = "Inverter Platinum";
 $lang["i2013_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings. <br>
 	 
 				<ul>
@@ -152,7 +152,7 @@ $lang["i2013_description"] = "Certificate under Norm-023 ensures high energy eff
 				</ul>";
 
 
-$lang["d2013_title"] = "D Series Model 2013";
+$lang["d2013_title"] = "Elegance 2013";
 $lang["d2013_description"] = "Certificate under Norm-023 ensures high energy efficiency, resulting in energy savings.
 
  <br>

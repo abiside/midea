@@ -61,8 +61,17 @@
 
 </div>
 
+<div id="showrooms-frame">
+	<div class="limited">
+		<div id="showroom-icons"></div>
+		<div id="showroomdesc" class="didot"><?=$this->lang->line("showroom_desc")?></div>
+		<input value="<?=$this->lang->line("showroom_ver")?>" id="enviarbtn" type="submit" onclick="javascript:window.location = '<?=base_url()?>donde-comprar'">
+	</div>
+</div>
+
 <div id="lider-frame">
-	<div class="limited" style="height:705px;">
+	<div class="shadow"></div>
+	<div class="limited" style="height:700px;">
 		<div id="icon-lider" class="<?=$this->session->userdata("language")?>"></div>
 			<div id="content-lider" class="didot">"<?=$this->lang->line("the_best")?>"</div>
 		<div id="img-lider"></div>

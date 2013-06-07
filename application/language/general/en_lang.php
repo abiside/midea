@@ -4,13 +4,15 @@
 $lang["web_title"] = "Midea México - Air Conditioning";
 $lang["copyright"] = "All Rights reserved";
 $lang["the_best"] = "The best quality and great savings";
+$lang["showroom_desc"] = "Lorem Ipsum. Proin gravida nibh vel velitt iauris. endisse in orci enim.";
+$lang["showroom_ver"] = "Go to directory";
 
 // -- MENU---
 $lang["menu_home"] = "Home";
 $lang["menu_products"] = "Products";
 $lang["menu_about"] = "About Us";
 $lang["menu_support"] = "Technical Support";
-$lang["menu_distributors"] = "Distributors";
+$lang["menu_distributors"] = "Where to buy";
 $lang["menu_show"] = "Showrooms";
 $lang["menu_contact"] = "Contact Us";
 
@@ -26,6 +28,7 @@ $lang["contact_north"] = "Sales Mexico North";
 $lang["contact_person_1"] = "Lic. Federico Fuentes";
 $lang["contact_center"] = "Sales Mexico Center and South";
 $lang["contact_person_2"] = "Lic. Luis Mendoza";
+$lang["footer_donde"] = "Where can I buy them?";
 
 $lang["contact_followus"] = "Follow us";
 
@@ -86,7 +89,8 @@ $lang["distributors_title"] = "Distributors";
 
 // ---  PRODUCTOS ---
 $lang["products_title"] = "Products";
-$lang["products_PDF"] = "Download PDF";
+$lang["products_PDF"] = "Tech sheet";
+$lang["products_Donde"] = "Where to buy";
 
 // --- SHOWROOMS
 $lang["showrooms_title"] = "Showrooms";

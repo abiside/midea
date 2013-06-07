@@ -3,7 +3,7 @@
  <head>  
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 <title><?=$page_title?> - <?=$this->lang->line("web_title")?></title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />   
+<link rel="shortcut icon" href="<?=base_url()?>media/img/icon.png" type="image/x-icon" />   
 <link rel="stylesheet" href="<?=base_url()?>media/css/styles.css" />
 <link rel="stylesheet" href="<?=base_url()?>media/css/distribuidores.css" />
 
@@ -57,7 +57,6 @@
 						<a href="<?=base_url()?>nosotros" class="opcion" id="noso"><?=$this->lang->line("menu_about")?></a>
 						<a href="<?=base_url()?>centros-de-servicio" class="opcion" id="sopo"><?=$this->lang->line("menu_support")?></a>
 						<a href="<?=base_url()?>donde-comprar" class="opcion" id="dist"><?=$this->lang->line("menu_distributors")?></a>
-						<a href="<?=base_url()?>showrooms" class="opcion" id="show"><?=$this->lang->line("menu_show")?></a>
 						<a href="javascript:scroll('footerplaceholder');" class="opcion" id="conta"><?=$this->lang->line("menu_contact")?></a>
 
 						<div class="<?=$this->session->userdata("language")?>"><div id="selectedbar" class="<?php echo $sbar; ?>" ></div></div>
@@ -98,6 +97,9 @@
 						<span><?=$this->lang->line("contact_center")?></span><br>
 						<?=$this->lang->line("contact_person_2")?><br>
 						<a href="mailto:lmendoza@midea.com">lmendoza@midea.com</a>
+
+						</br><a href="<?=base_url()?>donde-comprar" class="donde">- <?=$this->lang->line("footer_donde")?></a>
+
 					</div>
 					<div id="rightarea">
 						<a target="_blank" href="https://maps.google.com/maps?q=Valle+Oriente,+San+Pedro+Garza+Garc%C3%ADa,+Mexico&hl=en&ie=UTF8&ll=25.656363,-100.345988&spn=0.018472,0.02856&sll=25.664389,-100.345688&sspn=0.009235,0.01428&oq=valle+oriente&hnear=Valle+Oriente,+San+Pedro+Garza+Garc%C3%ADa,+Nuevo+Le%C3%B3n,+Mexico&t=m&z=16"><div id="mapita"></div></a>

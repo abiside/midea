@@ -4,13 +4,15 @@
 $lang["web_title"] = "Midea México - Aires acondicionados";
 $lang["copyright"] = "Todos los derechos reservados";
 $lang["the_best"] = "La mejor calidad, el mayor ahorro";
+$lang["showroom_desc"] = "Lorem Ipsum. Proin gravida nibh vel velitt iauris. endisse in orci enim.";
+$lang["showroom_ver"] = "Ver directorio";
 
 // -- MENU---
 $lang["menu_home"] = "Inicio";
 $lang["menu_products"] = "Productos";
 $lang["menu_about"] = "Nosotros";
 $lang["menu_support"] = "Soporte técnico";
-$lang["menu_distributors"] = "Distribuidores";
+$lang["menu_distributors"] = "Donde comprar";
 $lang["menu_contact"] = "Contacto";
 $lang["menu_show"] = "Showrooms";
 
@@ -27,6 +29,7 @@ $lang["contact_north"] = "Ventas Zona Norte de México";
 $lang["contact_person_1"] = "Lic. Federico Fuentes";
 $lang["contact_center"] = "Ventas Zona Centro y Sureste de México";
 $lang["contact_person_2"] = "Lic. Luis Mendoza";
+$lang["footer_donde"] = "¿Donde comprar?";
 
 $lang["contact_followus"] = "Síguenos en";
 
@@ -88,7 +91,8 @@ $lang["distributors_title"] = "Distribuidores";
 
 // ---  PRODUCTOS ---
 $lang["products_title"] = "Productos";
-$lang["products_PDF"] = "Descarga PDF";
+$lang["products_PDF"] = "Ficha técnica";
+$lang["products_Donde"] = "Donde comprar";
 
 // --- SHOWROOMS
 $lang["showrooms_title"] = "Showrooms";

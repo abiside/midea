@@ -13,6 +13,7 @@
 				<?=$this->lang->line("d2012_description")?>
 			</div>
 			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
+			<a href="<?=base_url()?>donde-comprar" class="donde"><?=$this->lang->line("products_Donde")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -32,6 +33,7 @@
 				<?=$this->lang->line("champ_description")?>
 			</div>
 			<a href="<?=base_url()?>media/pdf/Flyer_Midea_Premier.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
+			<a href="<?=base_url()?>donde-comprar" class="donde"><?=$this->lang->line("products_Donde")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -51,6 +53,7 @@
 				<?=$this->lang->line("plata_description")?>
 			</div>
 			<a href="<?=base_url()?>media/pdf/Flyer_Midea_Premier.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
+			<a href="<?=base_url()?>donde-comprar" class="donde"><?=$this->lang->line("products_Donde")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -70,6 +73,7 @@
 				<?=$this->lang->line("i2013_description")?>
 			</div>
 			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
+			<a href="<?=base_url()?>donde-comprar" class="donde"><?=$this->lang->line("products_Donde")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -88,6 +92,7 @@
 				<?=$this->lang->line("d2013_description")?>
 			</div>
 			<a href="<?=base_url()?>media/pdf/Flyer_ModeloD_Inv.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
+			<a href="<?=base_url()?>donde-comprar" class="donde"><?=$this->lang->line("products_Donde")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -107,6 +112,7 @@
 				<?=$this->lang->line("tango_description")?>
 			</div>
 			<a href="<?=base_url()?>media/pdf/Flyer_Tango_out.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
+			<a href="<?=base_url()?>donde-comprar" class="donde"><?=$this->lang->line("products_Donde")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">
@@ -125,6 +131,7 @@
 				<?=$this->lang->line("des_description")?>
 			</div>
 			<a href="<?=base_url()?>media/pdf/Flyer_Tango_out.pdf" target="_blank"><?=$this->lang->line("products_PDF")?></a>
+			<a href="<?=base_url()?>donde-comprar" class="donde"><?=$this->lang->line("products_Donde")?></a>
 		</div>
 		<div class="imgarea">
 			<div class="modeloimg">

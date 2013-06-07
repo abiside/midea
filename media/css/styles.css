@@ -93,18 +93,16 @@ box-shadow: 0px 0px 7px 0px #000;}
 #header #menu-sup #menu-content #opciones #selectedbar.sprod {width:63px; margin-left: 76px;}
 #header #menu-sup #menu-content #opciones #selectedbar.snoso {width:56px; margin-left: 168px;}
 #header #menu-sup #menu-content #opciones #selectedbar.ssopo {width:98px; margin-left: 253px;}
-#header #menu-sup #menu-content #opciones #selectedbar.sdist {width:83px; margin-left: 381px;}
-#header #menu-sup #menu-content #opciones #selectedbar.sshow {width:74px; margin-left: 496px;}
-#header #menu-sup #menu-content #opciones #selectedbar.scont {width:57px; margin-left: 601px;}
+#header #menu-sup #menu-content #opciones #selectedbar.sdist {width:97px; margin-left: 381px;}
+#header #menu-sup #menu-content #opciones #selectedbar.scont {width:57px; margin-left: 507px;}
 
 /* MEDIDAS BAR INGLES */
 #header #menu-sup #menu-content #opciones .en #selectedbar.shome {width:37px; margin-left: 15px;}
 #header #menu-sup #menu-content #opciones .en #selectedbar.sprod {width:55px; margin-left: 82px;}
 #header #menu-sup #menu-content #opciones .en #selectedbar.snoso {width:60px; margin-left: 166px;}
 #header #menu-sup #menu-content #opciones .en #selectedbar.ssopo {width:111px; margin-left: 256px;}
-#header #menu-sup #menu-content #opciones .en #selectedbar.sdist {width:70px; margin-left: 396px;}
-#header #menu-sup #menu-content #opciones .en #selectedbar.sshow {width:74px; margin-left: 496px;}
-#header #menu-sup #menu-content #opciones .en #selectedbar.scont {width:69px; margin-left: 601px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.sdist {width:81px; margin-left: 396px;}
+#header #menu-sup #menu-content #opciones .en #selectedbar.scont {width:69px; margin-left: 507px;}
 
 #header #menu-sup #menu-content #barra-lang {position: absolute; right: 0; margin: 16px; font-size:12px;}
 #header #menu-sup #menu-content #barra-lang a { color:#bbb; font-size:10px; }
@@ -114,7 +112,9 @@ box-shadow: 0px 0px 7px 0px #000;}
 #footer{height:600px; background:url(../img/lib/bg-footer.png) repeat-x; position: fixed; bottom: 0; width: 100%; z-index: 2;
 }
 #footer a{font-weight:bold; color:#fff;}
+#footer a.donde {margin: 40px 0px; font-size: 16px; position: absolute;}
 #footer a:hover{text-decoration: underline;}
+#footer a.donde:hover{text-decoration: none; color: #00aeef; }
 
 #footerplaceholder { height: 600px; position: relative; z-index: 1; }
 
@@ -222,10 +222,22 @@ sizingMethod='scale');
 }
 #soporte-frame .shadow {background: url(../img/lib/soporteframe.png) repeat-x; position: absolute; height: 465px; width: 100%;}
 
-#lider-frame{background: url(../img/lib/bg-lider-frame.png) center repeat-x;height:705px;
+#showrooms-frame {background: url(../img/lib/bg-lider-frame.png) top repeat-x;height:735px;
 -moz-box-shadow: 0px -5px 6px -5px #000;
 -webkit-box-shadow: 0px -5px 6px -5px #000;
 box-shadow: 0px -5px 6px -5px #000;}
+#showrooms-frame #showroom-icons {text-align: center; height:532px; width:960px; background: url(../img/lib/showrooms.jpg);}
+#showrooms-frame #showroomdesc {font-size: 24px; color:#bcbcbc; margin: 20px 0px 40px; }
+#showrooms-frame #enviarbtn {margin-bottom: 40px; font-family:'helveticaneuebold', sans-serif; font-size:14px; width: 360px; height:50px; border: 1px solid #04527f; background:url(../img/lib/btnbg.png) repeat-x; background-size: auto 100%; color: white; text-shadow: 0px 0px 6px rgba(0,0,0, 0.5); 
+border-radius: 3px; padding: 0px 10px;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+src='http://midea.com.mx/media/img/lib/btnbg.png',
+sizingMethod='scale');
+}
+
+.shadow {background: url(../img/lib/shadow.png) repeat-x; width: 100%; height: 5px;}
+
+#lider-frame{background: url(../img/lib/bg-lider-frame.png) center repeat-x; height:705px;}
 #lider-frame #icon-lider{position:absolute;background: url(../img/lib/icon-lider.png) center no-repeat;height:200px;width:100%;margin:115px 0 50px 0;}
 #lider-frame #img-lider{position:absolute;background: url(../img/lib/lider-img.png) center no-repeat;height:245px;width:100%;bottom:0;}
 #lider-frame #content-lider{font-size: 24px; color: #909090; position: absolute; margin-top: 375px; width:100%;}
@@ -324,8 +336,9 @@ margin-right: auto;}
 .producto .productocontent .modelotitle {font-size: 24px; color: #00aeef;}
 .producto .productocontent .modeloinfo {margin: 20px 0px;}
 .producto .productocontent .modeloinfo ul {margin: 25px 0px 50px 15px; list-style-image: url(../img/lib/bullet.png);}
-.producto .productocontent .modeloinfo li {padding-left: 15px; }
-.producto .productocontent a { text-align: center; border-radius: 3px; display:block; font-family:'helveticaneuebold', sans-serif; font-size:16px; line-height: 30px; width: 150px; height:30px; border: 1px solid #04527f; background:url(../img/lib/btnbg.png) repeat-x; color: white; text-shadow: 0px 0px 6px rgba(0,0,0, 0.5); }
+.producto .productocontent .modeloinfo li {padding-left: 15px; padding-bottom: 5px; }
+.producto .productocontent a { text-align: center; border-radius: 3px; display:inline-block; font-family:'helveticaneuebold', sans-serif; font-size:16px; line-height: 31px; padding: 0px 10px; height:30px; border: 1px solid #464646; background:url(../img/lib/btnbgb.png) repeat-x; color: white; text-shadow: 0px 1px 1px rgba(0,0,0, 0.7); }
+.producto .productocontent a.donde {border: 1px solid #d34a00; background:url(../img/lib/btnbgn.png) repeat-x;}
 
 .producto .imgarea {float: right; height: 350px; width:585px;}
 .producto .imgarea .modeloimg {height: 350px; position: relative;}

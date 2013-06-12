@@ -10,8 +10,8 @@ class Partners extends CI_Controller {
 	public function index()
 	{
 		//recibimos los datos de todos los distribuidores/partners
-		$partners = $this->Partners_model->lista(1)->get()->result();
-		$markers = $this->Partners_model->markers(1);
+		$partners = $this->Partners_model->lista(array(1,3))->get()->result();
+		$markers = $this->Partners_model->markers(array(1,3));
 		$estados = json_encode($this->Partners_model->estados());
 
 		//marcadores para join con direcciones
@@ -29,8 +29,8 @@ class Partners extends CI_Controller {
 	public function servicio(){
 
 		//recibimos los datos de todos los distribuidores/partners
-		$partners = $this->Partners_model->lista(2)->get()->result();
-		$markers = $this->Partners_model->markers(2);
+		$partners = $this->Partners_model->lista(array(2))->get()->result();
+		$markers = $this->Partners_model->markers(array(2));
 		$estados = json_encode($this->Partners_model->estados());
 
 

@@ -12,10 +12,14 @@ class Partners_model extends CI_Model
 		$this->db->select("*,ciudades.nombre as ciudad, estados.nombre as estado, ciudades.id as city, estados.id as state, estados.latitud as latitud, estados.longitud as longitud")
 				->from("estados")
 				->join("ciudades", "ciudades.estado = estados.id")
-				->join("partners", "partners.ciudad = ciudades.id")
-				->where("tipo", $tipo)
-				->where("activo", 1)
-				->order_by("estados.nombre asc, ciudades.nombre asc");
+				->join("partners", "partners.ciudad = ciudades.id");
+
+		foreach($tipo as $t): 
+			$this->db->or_where("tipo",$t);
+		endforeach;
+				
+		$this->db->where("activo", 1);
+		$this->db->order_by("estados.nombre asc, tipo desc, ciudades.nombre asc");
 
 		return $this->db;
 	}

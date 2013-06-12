@@ -10,7 +10,7 @@
       <?php foreach($partners as $p): ?>
 
         <div class="partner gp-<?=$p->state?>">
-            <div class="icon"></div>
+            <div class="icon type<?=$p->tipo?>"></div>
             <div class="info">
                 <div class="nombre"><?=$p->nombre?></div>
                 <div class="direccion"><?=$p->ciudad?>, <?=$p->estado?></div>

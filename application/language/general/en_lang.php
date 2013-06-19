@@ -4,7 +4,7 @@
 $lang["web_title"] = "Midea México - Air Conditioning";
 $lang["copyright"] = "All Rights reserved";
 $lang["the_best"] = "The best quality and great savings";
-$lang["showroom_desc"] = "Lorem Ipsum. Proin gravida nibh vel velitt iauris. endisse in orci enim.";
+$lang["showroom_desc"] = "See our wide range air conditioning solutions through our exclusive products showrooms.";
 $lang["showroom_ver"] = "Go to directory";
 
 // -- MENU---
@@ -85,6 +85,7 @@ $lang["phone_sop"] = "Contact us through our customer service department:";
 
 // --- DISTRIBUTORS
 $lang["distributors_title"] = "Distributors";
+$lang["distributors_weblink"] = "Website";
 
 
 // ---  PRODUCTOS ---

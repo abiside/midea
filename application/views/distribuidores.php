@@ -13,8 +13,15 @@
             <div class="icon type<?=$p->tipo?>"></div>
             <div class="info">
                 <div class="nombre"><?=$p->nombre?></div>
-                <div class="direccion"><?=$p->ciudad?>, <?=$p->estado?></div>
+                <div class="direccion">
+                  <?php if($p->domicilio): ?>
+                    <?=$p->domicilio?>, <?=$p->colonia?>, <?=$p->cp?><br>
+                  <?php endif ?>
+                  <?=$p->ciudad?>, <?=$p->estado?></div>
                 <div class="telefono"><?=$p->telefono?></div>
+                <?php if($p->web): ?>
+                  <div class="web"><a href="<?=$p->web?>"><?=$this->lang->line("distributors_weblink")?></a></div>
+                <?php endif ?>
             </div>
         </div>
 
